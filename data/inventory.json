@@ -1,5 +1,181 @@
 [
   {
+    "url": "https://www.arabnews.com/node/1659376/world",
+    "countries": [
+      "Afghanistan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Afghanistan",
+    "http_status": 403,
+    "final_url": "https://www.arabnews.com/node/1659376/world",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.joradp.dz/FTP/jo-francais/2016/F2016013.pdf",
+    "countries": [
+      "Algeria"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Algeria",
+    "http_status": 200,
+    "final_url": "https://www.joradp.dz/FTP/jo-francais/2016/F2016013.pdf",
+    "content_type": "application/pdf",
+    "bytes": 330330,
+    "kind": "pdf",
+    "saved_to": "documents/Algeria/F2016013-e90dece2.pdf",
+    "page_count": 32,
+    "extractable_text_sample_chars": 8761,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://files.lex.ao/presidente-da-republica/2022/decreto-presidencial-n-o-123-22-de-30-de-maio/download/decreto-presidencial-n-o-123-22-de-30-de-maio_presidente-da-republica_lex-ao.pdf",
+    "countries": [
+      "Angola"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Angola",
+    "http_status": 200,
+    "final_url": "https://files.lex.ao/presidente-da-republica/2022/decreto-presidencial-n-o-123-22-de-30-de-maio/download/decreto-presidencial-n-o-123-22-de-30-de-maio_presidente-da-republica_lex-ao.pdf",
+    "content_type": "application/pdf",
+    "bytes": 966909,
+    "kind": "pdf",
+    "saved_to": "documents/Angola/decreto-presidencial-n-o-123-22-de-30-de-maio_presidente-da-republica_lex-ao-be14485c.pdf",
+    "page_count": 8,
+    "extractable_text_sample_chars": 0,
+    "likely_scanned": true,
+    "status": "ok"
+  },
+  {
+    "url": "https://emze.az/ru/novosti/obnovleniya-zakonodatelstva/noviye-trebovaniya-dlya-deyatelnosti-taksi-v-azerbaijane/",
+    "countries": [
+      "Azerbaijan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Azerbaijan",
+    "http_status": 429,
+    "final_url": "https://emze.az/ru/novosti/obnovleniya-zakonodatelstva/noviye-trebovaniya-dlya-deyatelnosti-taksi-v-azerbaijane/",
+    "content_type": "text/html",
+    "status": "http_error"
+  },
+  {
+    "url": "https://easts.info/on-line/proceedings/vol.12/pdf/PP2543.pdf",
+    "countries": [
+      "Bangladesh"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis",
+      "Online riders regulated"
+    ],
+    "reference_count": 2,
+    "primary_country": "Bangladesh",
+    "http_status": 200,
+    "final_url": "https://easts.info/on-line/proceedings/vol.12/pdf/PP2543.pdf",
+    "content_type": "application/pdf",
+    "bytes": 694658,
+    "kind": "pdf",
+    "saved_to": "documents/Bangladesh/PP2543-de3a9006.pdf",
+    "page_count": 15,
+    "extractable_text_sample_chars": 6615,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://shs.cairn.info/revue-l-economie-politique-2009-1-page-59?lang=fr#s1n5",
+    "countries": [
+      "Benin"
+    ],
+    "topics": [
+      "Physical or organizational requirements at stages"
+    ],
+    "reference_count": 1,
+    "primary_country": "Benin",
+    "http_status": 403,
+    "final_url": "https://shs.cairn.info/revue-l-economie-politique-2009-1-page-59?lang=fr#s1n5",
+    "content_type": "text/html;charset=utf-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://visiter-le-benin.com/les-taxis-motos-zemidjan-iconiques-du-benin/",
+    "countries": [
+      "Benin"
+    ],
+    "topics": [
+      "Visible ID (on jacket or elsewhere)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Benin",
+    "status": "connection_error",
+    "error": "HTTPSConnectionPool(host='visiter-le-benin.com', port=443): Max retries exceeded with url: /les-taxis-motos-zemidjan-iconiques-du-benin/ (Caused by NameResolutionError(\"HTTPSConnection(host='visiter-le-benin.com', port=443): Failed to resolve 'visiter-le-benin.com' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "url": "https://www.gouv.bj/article/2610/defaut-port-casque-routes-amende-forfaitaire-fixee-mille-5000-francs-cfa/",
+    "countries": [
+      "Benin"
+    ],
+    "topics": [
+      "Driver helmet"
+    ],
+    "reference_count": 1,
+    "primary_country": "Benin",
+    "http_status": 200,
+    "final_url": "https://www.gouv.bj/article/2610/defaut-port-casque-routes-amende-forfaitaire-fixee-mille-5000-francs-cfa/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 34941,
+    "kind": "html",
+    "saved_to": "documents/Benin/defaut-port-casque-routes-amende-forfaitaire-fixee-mille-5000-francs-cfa-926d455e.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.slateafrique.com/87145/des-taxi-motos-rois-du-benin",
+    "countries": [
+      "Benin"
+    ],
+    "topics": [
+      "Vehicle registration (logbook)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Benin",
+    "http_status": 503,
+    "final_url": "https://www.slateafrique.com/87145/des-taxi-motos-rois-du-benin",
+    "content_type": "text/html",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.botswanatradeportal.org.bw/kcfinder/upload/files/Chapter%2069.01%20Road%20Traffic.pdf",
+    "countries": [
+      "Botswana"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Botswana",
+    "http_status": 200,
+    "final_url": "https://www.botswanatradeportal.org.bw/kcfinder/upload/files/Chapter%2069.01%20Road%20Traffic.pdf",
+    "content_type": "application/pdf",
+    "bytes": 521055,
+    "kind": "pdf",
+    "saved_to": "documents/Botswana/Chapter-69.01-Road-Traffic-6dd184bc.pdf",
+    "page_count": 53,
+    "extractable_text_sample_chars": 7242,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
     "url": "https://academiedepolice.bf/index.php/telechargement/category/36-securite-des-transports?download=90:le-decret-portant-conditions-et-modalites-d-exploitation-a-titre-onereux-et-pour-compte-propre-des-velomoteurs-motocyclettes-tricycles-et-quadricycles-a-moteur",
     "countries": [
       "Burkina Faso"
@@ -21,6 +197,370 @@
     "status": "ok"
   },
   {
+    "url": "https://pnb.gov.bi/documents/1657522240.pdf",
+    "countries": [
+      "Burundi"
+    ],
+    "topics": [
+      "Helmet quality",
+      "Legislation Addressing Moto-Taxis",
+      "Passenger helmet"
+    ],
+    "reference_count": 3,
+    "primary_country": "Burundi",
+    "ssl_bypassed": true,
+    "http_status": 404,
+    "final_url": "https://pnb.gov.bi/documents/1657522240.pdf",
+    "content_type": "text/html; charset=iso-8859-1",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.vdb-loi.com/wp-content/uploads/2021/07/New-regulation-in-Cambodia-on-road-transportation-services-provided-with-the-use-of-digital-technologies.pdf",
+    "countries": [
+      "Cambodia"
+    ],
+    "topics": [
+      "Online riders regulated"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cambodia",
+    "http_status": 200,
+    "final_url": "https://www.vdb-loi.com/wp-content/uploads/2021/07/New-regulation-in-Cambodia-on-road-transportation-services-provided-with-the-use-of-digital-technologies.pdf",
+    "content_type": "application/pdf",
+    "bytes": 552540,
+    "kind": "pdf",
+    "saved_to": "documents/Cambodia/New-regulation-in-Cambodia-on-road-transportation-services-provided-with-the-use-941bd686.pdf",
+    "page_count": 2,
+    "extractable_text_sample_chars": 7120,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.cameroon-tribune.cm/article.html/67166/fr.html",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Passenger helmet",
+      "Reflector jacket",
+      "Vehicle quality check (recurring)"
+    ],
+    "reference_count": 3,
+    "primary_country": "Cameroon",
+    "http_status": 404,
+    "final_url": "https://www.cameroon-tribune.cm/article.html/67166/fr.html",
+    "content_type": "text/html; charset=iso-8859-1",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.investiraucameroun.com/gestion-publique/0801-21542-automobile-des-exonerations-fiscales-pour-stimuler-la-vente-des-vehicules-electriques-neufs-au-cameroun",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Fiscal incentives for electrification"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.investiraucameroun.com/gestion-publique/0801-21542-automobile-des-exonerations-fiscales-pour-stimuler-la-vente-des-vehicules-electriques-neufs-au-cameroun",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 215318,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/0801-21542-automobile-des-exonerations-fiscales-pour-stimuler-la-vente-des-vehic-e8566f11.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.logistiqueconseil.org/Articles/Transport-routier/Moto-taxi.htm",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Driver helmet"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 404,
+    "final_url": "https://www.logistiqueconseil.org/Articles/Transport-routier/Moto-taxi.htm",
+    "content_type": "text/html; charset=iso-8859-1",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.logistiqueconseil.org/Articles/Transport-routier/Moto-taxi.html",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Commercial operating license (PSV etc)",
+      "Drivers license"
+    ],
+    "reference_count": 2,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.logistiqueconseil.org/Articles/Transport-routier/Moto-taxi.html",
+    "content_type": "text/html",
+    "bytes": 17699,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/Moto-taxi-865bb744.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.memoireonline.com/02/10/3152/m_Les-defis-de-la-securite-routiere-en-milieux-urbain-au-Cameroun-le-cas-des-motos-taxis-a-Yaoun8.html",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Visible ID (on jacket or elsewhere)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.memoireonline.com/02/10/3152/m_Les-defis-de-la-securite-routiere-en-milieux-urbain-au-Cameroun-le-cas-des-motos-taxis-a-Yaoun8.html",
+    "content_type": "text/html",
+    "bytes": 25954,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/m_Les-defis-de-la-securite-routiere-en-milieux-urbain-au-Cameroun-le-cas-des-mot-17be94c5.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/585547827/resource-center-isanglegal-com-CODE-DE-LA-ROUTE-CAMEROUNAIS-CEMAC",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Road behavior / standard of service"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/585547827/resource-center-isanglegal-com-CODE-DE-LA-ROUTE-CAMEROUNAIS-CEMAC",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/resource-center-isanglegal-com-CODE-DE-LA-ROUTE-CAMEROUNAIS-CEMAC-da7261b2.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.unep.org/technical-highlight/cameroon-accelerates-electric-mobility-bold-tax-incentives",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "Non-fiscal incentives for electrification"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.unep.org/technical-highlight/cameroon-accelerates-electric-mobility-bold-tax-incentives",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 155587,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/cameroon-accelerates-electric-mobility-bold-tax-incentives-d2506d67.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.wearetech.africa/en/fils-uk/news/public-management/cameroon-douala-begins-digital-registration-of-moto-taxi-drivers",
+    "countries": [
+      "Cameroon"
+    ],
+    "topics": [
+      "ID / Biodata (database)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cameroon",
+    "http_status": 200,
+    "final_url": "https://www.wearetech.africa/en/fils-uk/news/public-management/cameroon-douala-begins-digital-registration-of-moto-taxi-drivers",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 126333,
+    "kind": "html",
+    "saved_to": "documents/Cameroon/cameroon-douala-begins-digital-registration-of-moto-taxi-drivers-ca011bf6.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/695121574/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada#content=query:comercial,pageNum:26,indexOnPage:0,bestMatch:false",
+    "countries": [
+      "Cape Verde"
+    ],
+    "topics": [
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cape Verde",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/695121574/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada#content=query:comercial,pageNum:26,indexOnPage:0,bestMatch:false",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-e718a39b.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/695121574/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada#content=query:passageiro,pageNum:28,indexOnPage:0,bestMatch:false",
+    "countries": [
+      "Cape Verde"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Cape Verde",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/695121574/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada#content=query:passageiro,pageNum:28,indexOnPage:0,bestMatch:false",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-80cbb1bf.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.radiondekeluka.org/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos",
+    "countries": [
+      "Central African Republic"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Central African Republic",
+    "http_status": 200,
+    "final_url": "https://www.radiondekeluka.org/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 57244,
+    "kind": "html",
+    "saved_to": "documents/Central-African-Republic/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos-85093b6d.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.lepaystchad.com/32133/",
+    "countries": [
+      "Chad"
+    ],
+    "topics": [
+      "Driver helmet"
+    ],
+    "reference_count": 1,
+    "primary_country": "Chad",
+    "http_status": 200,
+    "final_url": "https://www.lepaystchad.com",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 141421,
+    "kind": "html",
+    "saved_to": "documents/Chad/32133-d27905de.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/695287816/Code-de-la-route-230929-195113",
+    "countries": [
+      "Chad"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Chad",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/695287816/Code-de-la-route-230929-195113",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Chad/Code-de-la-route-230929-195113-c50bbb95.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.sixthtone.com/news/1017048",
+    "countries": [
+      "China"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "China",
+    "http_status": 200,
+    "final_url": "https://www.sixthtone.com/news/1017048",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 29341,
+    "kind": "html",
+    "saved_to": "documents/China/1017048-6090e51b.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://leyes.co/codigo_nacional_de_transito_terrestre/131.htm",
+    "countries": [
+      "Colombia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Colombia",
+    "http_status": 200,
+    "final_url": "https://leyes.co/codigo_nacional_de_transito_terrestre/131.htm",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 61906,
+    "kind": "html",
+    "saved_to": "documents/Colombia/131-9adbae00.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.eluniversal.com.co/colombia/2025/03/06/nuevas-senales-de-transito-para-motos-en-colombia-cuidado-con-una-multa/#goog_rewarded",
+    "countries": [
+      "Colombia"
+    ],
+    "topics": [
+      "Other"
+    ],
+    "reference_count": 1,
+    "primary_country": "Colombia",
+    "http_status": 200,
+    "final_url": "https://www.eluniversal.com.co/colombia/2025/03/06/nuevas-senales-de-transito-para-motos-en-colombia-cuidado-con-una-multa/#goog_rewarded",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 333203,
+    "kind": "html",
+    "saved_to": "documents/Colombia/nuevas-senales-de-transito-para-motos-en-colombia-cuidado-con-una-multa-a1b03cef.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=346",
+    "countries": [
+      "Colombia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Colombia",
+    "ssl_bypassed": true,
+    "http_status": 200,
+    "final_url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=346",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 133837,
+    "kind": "html",
+    "saved_to": "documents/Colombia/norma-8d3d49b9.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://munganyo.km/public/storage/Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ-metaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyMDIwIFByb211bGdhdGlvbiBDb2RlIGRlIGxhIHJvdXRlLnBkZg==-.pdf",
+    "countries": [
+      "Comoros"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Comoros",
+    "http_status": 200,
+    "final_url": "https://munganyo.km/public/storage/Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ-metaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyMDIwIFByb211bGdhdGlvbiBDb2RlIGRlIGxhIHJvdXRlLnBkZg==-.pdf",
+    "content_type": "application/pdf",
+    "bytes": 5303127,
+    "kind": "pdf",
+    "saved_to": "documents/Comoros/Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ-metaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyM-b23504f0.pdf",
+    "page_count": 110,
+    "extractable_text_sample_chars": 0,
+    "likely_scanned": true,
+    "status": "ok"
+  },
+  {
     "url": "https://africa24tv.com/congo-le-transport-par-motos-taxis-reglemente",
     "countries": [
       "Democratic Republic of the Congo"
@@ -39,6 +579,390 @@
     "status": "ok"
   },
   {
+    "url": "https://www.leganet.cd/Legislation/DroitPenal/Roulage/Loi.078.022.30.08.1978.pdf",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "topics": [
+      "Driver helmet",
+      "Drivers license",
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 3,
+    "primary_country": "Democratic Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://www.leganet.cd/Legislation/DroitPenal/Roulage/Loi.078.022.30.08.1978.pdf",
+    "content_type": "application/pdf",
+    "bytes": 543945,
+    "kind": "pdf",
+    "saved_to": "documents/Democratic-Republic-of-the-Congo/Loi.078.022.30.08.1978-ce9f615f.pdf",
+    "page_count": 88,
+    "extractable_text_sample_chars": 5299,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.radiookapi.net/2024/02/13/actualite/securite/kinshasa-la-police-interdit-aux-moto-taxis-dacceder-la-commune-de",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "topics": [
+      "Geographic restrictions"
+    ],
+    "reference_count": 1,
+    "primary_country": "Democratic Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://www.radiookapi.net/2024/02/13/actualite/securite/kinshasa-la-police-interdit-aux-moto-taxis-dacceder-la-commune-de",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 56209,
+    "kind": "html",
+    "saved_to": "documents/Democratic-Republic-of-the-Congo/kinshasa-la-police-interdit-aux-moto-taxis-dacceder-la-commune-de-f201c563.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.radiookapi.net/actualite/2010/09/08/motos-a-kinshasa-assurance-identification-et-port-des-casques-desormais-obligatoires",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "topics": [
+      "Insurance (third party / liability)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Democratic Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://www.radiookapi.net/actualite/2010/09/08/motos-a-kinshasa-assurance-identification-et-port-des-casques-desormais-obligatoires",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 53806,
+    "kind": "html",
+    "saved_to": "documents/Democratic-Republic-of-the-Congo/motos-a-kinshasa-assurance-identification-et-port-des-casques-desormais-obligato-a7769036.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.research4cap.org/wp-content/uploads/ral/TransaidAmend-2020-MotorcycleTaxisThreeWheelersDRC-PolicyBrief-AfCAP-RAF2114A-200102.pdf",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "topics": [
+      "Driver helmet",
+      "Driver training",
+      "Drivers license"
+    ],
+    "reference_count": 3,
+    "primary_country": "Democratic Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://www.research4cap.org/wp-content/uploads/ral/TransaidAmend-2020-MotorcycleTaxisThreeWheelersDRC-PolicyBrief-AfCAP-RAF2114A-200102.pdf",
+    "content_type": "application/pdf",
+    "bytes": 687924,
+    "kind": "pdf",
+    "saved_to": "documents/Democratic-Republic-of-the-Congo/TransaidAmend-2020-MotorcycleTaxisThreeWheelersDRC-PolicyBrief-AfCAP-RAF2114A-20-17cf8dfd.pdf",
+    "page_count": 4,
+    "extractable_text_sample_chars": 10501,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://tttfp.org/wp-content/uploads/2019/06/Djibouti-Final-Report-1Feb17.pdf",
+    "countries": [
+      "Djibouti"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Djibouti",
+    "http_status": 200,
+    "final_url": "https://tttfp.org/wp-content/uploads/2019/06/Djibouti-Final-Report-1Feb17.pdf",
+    "content_type": "application/pdf",
+    "bytes": 866771,
+    "kind": "pdf",
+    "saved_to": "documents/Djibouti/Djibouti-Final-Report-1Feb17-d17ce0c5.pdf",
+    "page_count": 14,
+    "extractable_text_sample_chars": 9536,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://minhacienda-gob.com/wp-content/uploads/2020/06/TRABSPORTES-CARRETERA.pdf",
+    "countries": [
+      "Equatorial Guinea"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Equatorial Guinea",
+    "http_status": 404,
+    "final_url": "https://minhacienda-gob.com/wp-content/uploads/2020/06/TRABSPORTES-CARRETERA.pdf",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.loc.gov/resource/lleritrea.eritrean-proc-160-2007/?st=pdf&pdfPage=4",
+    "countries": [
+      "Eritrea"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Eritrea",
+    "http_status": 403,
+    "final_url": "https://www.loc.gov/resource/lleritrea.eritrean-proc-160-2007/?st=pdf&pdfPage=4",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://eswatinilii.org/akn/sz/act/2007/5/eng@2007-09-20/source",
+    "countries": [
+      "Eswatini"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Eswatini",
+    "http_status": 403,
+    "final_url": "https://eswatinilii.org/akn/sz/act/2007/5/eng@2007-09-20/source",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://chilot.wordpress.com/2021/02/10/road-transport-traffic-control-council-of-ministers-amendment-regulation-no-395-2017/",
+    "countries": [
+      "Ethiopia"
+    ],
+    "topics": [
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ethiopia",
+    "http_status": 200,
+    "final_url": "https://chilot.wordpress.com/2021/02/10/road-transport-traffic-control-council-of-ministers-amendment-regulation-no-395-2017/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 172515,
+    "kind": "html",
+    "saved_to": "documents/Ethiopia/road-transport-traffic-control-council-of-ministers-amendment-regulation-no-395-d2041374.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/681950404/DECRET-N-000311",
+    "countries": [
+      "Gabon"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Gabon",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/681950404/DECRET-N-000311",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Gabon/DECRET-N-000311-e5370aca.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://cleantechnica.com/2023/11/16/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024/",
+    "countries": [
+      "Ghana"
+    ],
+    "topics": [
+      "Fiscal incentives for electrification"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ghana",
+    "http_status": 200,
+    "final_url": "https://cleantechnica.com/2023/11/16/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 126227,
+    "kind": "html",
+    "saved_to": "documents/Ghana/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024-76abec3b.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://ir.parliament.gh/bitstream/handle/123456789/2683/ACT%20683%20Rev%20Ed.pdf?sequence=1&isAllowed=y",
+    "countries": [
+      "Ghana"
+    ],
+    "topics": [
+      "Driver training",
+      "Overloading",
+      "Road behavior / standard of service"
+    ],
+    "reference_count": 3,
+    "primary_country": "Ghana",
+    "http_status": 200,
+    "final_url": "https://repository.parliament.gh",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 498550,
+    "kind": "html",
+    "saved_to": "documents/Ghana/ACT-683-Rev-Ed-a929acc6.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://nrsa.gov.gh/news-and-events/nrsa-to-begin-registration-of-road-transport-service-providers-effective-march-2024/",
+    "countries": [
+      "Ghana"
+    ],
+    "topics": [
+      "Safety data sharing w gov (from apps or direct from drivers)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ghana",
+    "http_status": 502,
+    "final_url": "https://nrsa.gov.gh/news-and-events/nrsa-to-begin-registration-of-road-transport-service-providers-effective-march-2024/",
+    "content_type": "text/html",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.ghanaweb.com/GhanaHomePage/business/Parliament-passes-Road-Traffic-Amendment-Bill-2025-2013343",
+    "countries": [
+      "Ghana"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ghana",
+    "http_status": 200,
+    "final_url": "https://www.ghanaweb.com/GhanaHomePage/business/Parliament-passes-Road-Traffic-Amendment-Bill-2025-2013343",
+    "content_type": "text/html",
+    "bytes": 1905,
+    "kind": "html",
+    "saved_to": "documents/Ghana/Parliament-passes-Road-Traffic-Amendment-Bill-2025-2013343-1c383554.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mot.gov.gh/files/resources/National_Electric_Vehicle_Policy.pdf",
+    "countries": [
+      "Ghana"
+    ],
+    "topics": [
+      "Targets or mandates for electrification"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ghana",
+    "http_status": 200,
+    "final_url": "https://www.mot.gov.gh/files/resources/National_Electric_Vehicle_Policy.pdf",
+    "content_type": "application/pdf",
+    "bytes": 32545190,
+    "kind": "pdf",
+    "saved_to": "documents/Ghana/National_Electric_Vehicle_Policy-434fd46d.pdf",
+    "page_count": 44,
+    "extractable_text_sample_chars": 347,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://faolex.fao.org/docs/pdf/gbs121648.pdf",
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Guinea-Bissau",
+    "http_status": 200,
+    "final_url": "https://faolex.fao.org/docs/pdf/gbs121648.pdf",
+    "content_type": "application/pdf",
+    "bytes": 50594,
+    "kind": "pdf",
+    "saved_to": "documents/Guinea-Bissau/gbs121648-44bfed0b.pdf",
+    "page_count": 1,
+    "extractable_text_sample_chars": 4826,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://observador.pt/2024/07/04/policia-guineense-proibe-conducao-de-motos-sem-capacete-exige-carta-e-limita-passageiros/",
+    "countries": [
+      "Guinea-Bissau"
+    ],
+    "topics": [
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 1,
+    "primary_country": "Guinea-Bissau",
+    "http_status": 200,
+    "final_url": "https://observador.pt/2024/07/04/policia-guineense-proibe-conducao-de-motos-sem-capacete-exige-carta-e-limita-passageiros/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 296204,
+    "kind": "html",
+    "saved_to": "documents/Guinea-Bissau/policia-guineense-proibe-conducao-de-motos-sem-capacete-exige-carta-e-limita-pas-67703e37.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://peraturan.bpk.go.id/Details/104095/permenhub-no-12-tahun-2019",
+    "countries": [
+      "Indonesia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Indonesia",
+    "http_status": 403,
+    "final_url": "https://peraturan.bpk.go.id/Details/104095/permenhub-no-12-tahun-2019",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://setkab.go.id/inilah-keputusan-menhub-soal-besaran-tarif-jasa-ojek-dengan-aplikasi/",
+    "countries": [
+      "Indonesia"
+    ],
+    "topics": [
+      "Fares"
+    ],
+    "reference_count": 1,
+    "primary_country": "Indonesia",
+    "http_status": 200,
+    "final_url": "https://setkab.go.id/inilah-keputusan-menhub-soal-besaran-tarif-jasa-ojek-dengan-aplikasi/",
+    "content_type": "text/html",
+    "bytes": 5616,
+    "kind": "html",
+    "saved_to": "documents/Indonesia/inilah-keputusan-menhub-soal-besaran-tarif-jasa-ojek-dengan-aplikasi-f3c490ab.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.scribd.com/document/925975023/motorbike-taxi",
+    "countries": [
+      "Ivory Coast"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Ivory Coast",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/925975023/motorbike-taxi",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Ivory-Coast/motorbike-taxi-a085c5db.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://laws.e-gov.go.jp/law/326AC0000000183/",
+    "countries": [
+      "Japan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Japan",
+    "http_status": 200,
+    "final_url": "https://laws.e-gov.go.jp/law/326AC0000000183/",
+    "content_type": "text/html",
+    "bytes": 800,
+    "kind": "html",
+    "saved_to": "documents/Japan/326AC0000000183-dee0e5a7.html",
+    "status": "ok"
+  },
+  {
     "url": "https://adilet.zan.kz/eng/docs/Z030000476_",
     "countries": [
       "Kazakhstan"
@@ -48,8 +972,244 @@
     ],
     "reference_count": 1,
     "primary_country": "Kazakhstan",
-    "status": "ssl_error",
-    "error": "HTTPSConnectionPool(host='adilet.zan.kz', port=443): Max retries exceeded with url: /eng/docs/Z030000476_ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+    "ssl_bypassed": true,
+    "http_status": 200,
+    "final_url": "https://adilet.zan.kz/eng/docs/Z030000476_",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 238315,
+    "kind": "html",
+    "saved_to": "documents/Kazakhstan/Z030000476_-5fe11038.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/TrafficAct_Cap.403_No.37and38of2012Amendments.pdf",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "Driver training",
+      "Drivers license",
+      "Road behavior / standard of service",
+      "Vehicle quality check (recurring)"
+    ],
+    "reference_count": 4,
+    "primary_country": "Kenya",
+    "http_status": 403,
+    "final_url": "https://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/TrafficAct_Cap.403_No.37and38of2012Amendments.pdf",
+    "content_type": "text/html",
+    "status": "http_error"
+  },
+  {
+    "url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "Driver helmet",
+      "Helmet quality",
+      "Insurance (third party / liability)",
+      "Legislation Addressing Moto-Taxis",
+      "Overloading",
+      "Passenger helmet"
+    ],
+    "reference_count": 6,
+    "primary_country": "Kenya",
+    "http_status": 200,
+    "final_url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 94674,
+    "kind": "html",
+    "saved_to": "documents/Kenya/eng-2015-03-06-140aa535.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06#sec_10",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "Multiple passenger restriction",
+      "Passenger age requirement"
+    ],
+    "reference_count": 2,
+    "primary_country": "Kenya",
+    "http_status": 200,
+    "final_url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06#sec_10",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 94674,
+    "kind": "html",
+    "saved_to": "documents/Kenya/eng-2015-03-06-77dfa70d.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06/source.pdf",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "Reflector jacket",
+      "Visible ID (on jacket or elsewhere)"
+    ],
+    "reference_count": 2,
+    "primary_country": "Kenya",
+    "http_status": 200,
+    "final_url": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06/source.pdf",
+    "content_type": "application/pdf",
+    "bytes": 231694,
+    "kind": "pdf",
+    "saved_to": "documents/Kenya/source-c858aac8.pdf",
+    "page_count": 8,
+    "extractable_text_sample_chars": 4818,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://new.kenyalaw.org/akn/ke/act/ln/2022/120/eng@2022-12-31",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "Online riders regulated",
+      "Safety data sharing w gov (from apps or direct from drivers)"
+    ],
+    "reference_count": 2,
+    "primary_country": "Kenya",
+    "http_status": 200,
+    "final_url": "https://new.kenyalaw.org/akn/ke/act/ln/2022/120/eng@2022-12-31",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 154792,
+    "kind": "html",
+    "saved_to": "documents/Kenya/eng-2022-12-31-c3ad4f51.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.the-star.co.ke/news/2026-02-23-what-different-number-plates-mean",
+    "countries": [
+      "Kenya"
+    ],
+    "topics": [
+      "License plate specific to commercial operators"
+    ],
+    "reference_count": 1,
+    "primary_country": "Kenya",
+    "http_status": 200,
+    "final_url": "https://www.the-star.co.ke/news/2026-02-23-what-different-number-plates-mean",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 247121,
+    "kind": "html",
+    "saved_to": "documents/Kenya/2026-02-23-what-different-number-plates-mean-0f64ede7.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://kuwaitarticles.com/wp-content/uploads/2025/04/New-Traffic-Law-in-Kuwait-PDF.pdf",
+    "countries": [
+      "Kuwait"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Kuwait",
+    "http_status": 200,
+    "final_url": "https://kuwaitarticles.com/wp-content/uploads/2025/04/New-Traffic-Law-in-Kuwait-PDF.pdf",
+    "content_type": "application/pdf",
+    "bytes": 193224,
+    "kind": "pdf",
+    "saved_to": "documents/Kuwait/New-Traffic-Law-in-Kuwait-PDF-1a3ad4b8.pdf",
+    "page_count": 18,
+    "extractable_text_sample_chars": 5387,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://lesotholii.org/akn/ls/act/1981/6/eng@1981-12-31",
+    "countries": [
+      "Lesotho"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Lesotho",
+    "http_status": 403,
+    "final_url": "https://lesotholii.org/akn/ls/act/1981/6/eng@1981-12-31",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://frontpageafricaonline.com/news/liberia-police-and-motorcyclists-sign-mou-on-road-public-safety/",
+    "countries": [
+      "Liberia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Liberia",
+    "http_status": 200,
+    "final_url": "https://fpa.news/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 989668,
+    "kind": "html",
+    "saved_to": "documents/Liberia/liberia-police-and-motorcyclists-sign-mou-on-road-public-safety-f3589476.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://libmsp08.com/wp-content/uploads/2024/05/2008-REGULATION-GOVERNING-MOTORCYCLE-IN-LIBERIA.pdf",
+    "countries": [
+      "Liberia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Liberia",
+    "http_status": 200,
+    "final_url": "https://libmsp08.com/wp-content/uploads/2024/05/2008-REGULATION-GOVERNING-MOTORCYCLE-IN-LIBERIA.pdf",
+    "content_type": "application/pdf",
+    "bytes": 130868,
+    "kind": "pdf",
+    "saved_to": "documents/Liberia/2008-REGULATION-GOVERNING-MOTORCYCLE-IN-LIBERIA-82fb01d1.pdf",
+    "page_count": 6,
+    "extractable_text_sample_chars": 4813,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://security-legislation.ly/latest-laws/decree-no-247-of-1994-on-specifying-the-provisions-and-rules-on-traffic-traffic-signals-and-traffic-etiquette/",
+    "countries": [
+      "Libya"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Libya",
+    "http_status": 200,
+    "final_url": "https://security-legislation.ly/latest-laws/decree-no-247-of-1994-on-specifying-the-provisions-and-rules-on-traffic-traffic-signals-and-traffic-etiquette/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 213698,
+    "kind": "html",
+    "saved_to": "documents/Libya/decree-no-247-of-1994-on-specifying-the-provisions-and-rules-on-traffic-traffic-e2b5e043.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://midi-madagasikara.mg/taxis-moto-linformel-inonde-le-secteur-le-processus-de-formalisation-se-poursuit/",
+    "countries": [
+      "Madagascar"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Madagascar",
+    "http_status": 307,
+    "final_url": "https://midi-madagasikara.mg/taxis-moto-linformel-inonde-le-secteur-le-processus-de-formalisation-se-poursuit/",
+    "content_type": "text/html",
+    "bytes": 1439,
+    "kind": "html",
+    "saved_to": "documents/Madagascar/taxis-moto-linformel-inonde-le-secteur-le-processus-de-formalisation-se-poursuit-d8e66ba4.html",
+    "status": "ok"
   },
   {
     "url": "https://africaema.org/research/malawi-e-mobility-brief/",
@@ -70,6 +1230,439 @@
     "status": "ok"
   },
   {
+    "url": "https://malawilii.org/akn/mw/act/1997/26/eng@2014-12-31",
+    "countries": [
+      "Malawi"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis",
+      "Multiple passenger restriction",
+      "Overloading"
+    ],
+    "reference_count": 3,
+    "primary_country": "Malawi",
+    "http_status": 200,
+    "final_url": "https://malawilii.org/akn/mw/act/1997/26/eng@2014-12-31",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 896050,
+    "kind": "html",
+    "saved_to": "documents/Malawi/eng-2014-12-31-92d98968.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://media.malawilii.org/media/legislation/11927/source_file/787e847530fc531f/1997-26.pdf",
+    "countries": [
+      "Malawi"
+    ],
+    "topics": [
+      "Driver helmet",
+      "Drivers license"
+    ],
+    "reference_count": 2,
+    "primary_country": "Malawi",
+    "http_status": 200,
+    "final_url": "https://media.malawilii.org/media/legislation/11927/source_file/787e847530fc531f/1997-26.pdf",
+    "content_type": "application/pdf",
+    "bytes": 775490,
+    "kind": "pdf",
+    "saved_to": "documents/Malawi/1997-26-47f081ea.pdf",
+    "page_count": 75,
+    "extractable_text_sample_chars": 12638,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://tcclaw.com.my/wp-content/uploads/2025/08/Land-Public-Transport-Act-2010.pdf",
+    "countries": [
+      "Malaysia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Malaysia",
+    "http_status": 200,
+    "final_url": "https://tcclaw.com.my/wp-content/uploads/2025/08/Land-Public-Transport-Act-2010.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1610374,
+    "kind": "pdf",
+    "saved_to": "documents/Malaysia/Land-Public-Transport-Act-2010-fb5477ee.pdf",
+    "page_count": 228,
+    "extractable_text_sample_chars": 1220,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://amap.ml/regulation-du-secteur-des-motos-taxis-le-delai-de-grace-prend-fin-le-30-avril/",
+    "countries": [
+      "Mali"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Mali",
+    "status": "timeout"
+  },
+  {
+    "url": "https://maliactu.net/mali-larrete-du-maire-du-district-au-sujet-des-motos-taxis-obligation-de-carte-grise-plaque-dimmatriculation-couleur-jaune-limitation-de-vitesse/",
+    "countries": [
+      "Mali"
+    ],
+    "topics": [
+      "Geographic restrictions",
+      "Insurance (third party / liability)",
+      "Overloading",
+      "Vehicle registration (logbook)",
+      "Visible ID (on jacket or elsewhere)"
+    ],
+    "reference_count": 5,
+    "primary_country": "Mali",
+    "http_status": 200,
+    "final_url": "https://maliactu.net/mali-larrete-du-maire-du-district-au-sujet-des-motos-taxis-obligation-de-carte-grise-plaque-dimmatriculation-couleur-jaune-limitation-de-vitesse/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 108170,
+    "kind": "html",
+    "saved_to": "documents/Mali/mali-larrete-du-maire-du-district-au-sujet-des-motos-taxis-obligation-de-carte-g-a5b49bcc.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://documents1.worldbank.org/curated/en/878001625140712976/pdf/Mauritania-Transport-Policy-Note.pdf",
+    "countries": [
+      "Mauritania"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Mauritania",
+    "http_status": 200,
+    "final_url": "https://documents1.worldbank.org/curated/en/878001625140712976/pdf/Mauritania-Transport-Policy-Note.pdf",
+    "content_type": "application/pdf;charset=utf-8",
+    "bytes": 1323144,
+    "kind": "pdf",
+    "saved_to": "documents/Mauritania/Mauritania-Transport-Policy-Note-94ea9a1f.pdf",
+    "page_count": 21,
+    "extractable_text_sample_chars": 7627,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://en.bladi.net/morocco-cracks-down-illegal-motorcycle-taxi-services-major-cities,109378.html",
+    "countries": [
+      "Morocco"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Morocco",
+    "http_status": 200,
+    "final_url": "https://en.bladi.net/morocco-cracks-down-illegal-motorcycle-taxi-services-major-cities,109378.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 39978,
+    "kind": "html",
+    "saved_to": "documents/Morocco/morocco-cracks-down-illegal-motorcycle-taxi-services-major-cities-109378-dc22e367.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.inatro.gov.mz/wp-content/uploads/2019/08/RTA-2019-BR_35_2019-de-10-de-Maio-Regulamento-de-Transporte-Automovel.pdf",
+    "countries": [
+      "Mozambique"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Mozambique",
+    "ssl_bypassed": true,
+    "http_status": 200,
+    "final_url": "https://www.inatro.gov.mz/wp-content/uploads/2019/08/RTA-2019-BR_35_2019-de-10-de-Maio-Regulamento-de-Transporte-Automovel.pdf",
+    "content_type": "application/pdf",
+    "bytes": 11498261,
+    "kind": "pdf",
+    "saved_to": "documents/Mozambique/RTA-2019-BR_35_2019-de-10-de-Maio-Regulamento-de-Transporte-Automovel-60eeacd0.pdf",
+    "page_count": 30,
+    "extractable_text_sample_chars": 0,
+    "likely_scanned": true,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.economist.com/asia/2019/01/19/motorbikes-are-oddly-absent-from-myanmars-biggest-city",
+    "countries": [
+      "Myanmar"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Myanmar",
+    "http_status": 403,
+    "final_url": "https://www.economist.com/asia/2019/01/19/motorbikes-are-oddly-absent-from-myanmars-biggest-city",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://namiblii.org/akn/na/act/gn/2020/113/eng@2020-04-30",
+    "countries": [
+      "Namibia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Namibia",
+    "http_status": 403,
+    "final_url": "https://namiblii.org/akn/na/act/gn/2020/113/eng@2020-04-30",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.scribd.com/document/623261551/Code-de-la-route#content=query:motocycle,pageNum:5,indexOnPage:0,bestMatch:false",
+    "countries": [
+      "Niger"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Niger",
+    "http_status": 200,
+    "final_url": "https://www.scribd.com/document/623261551/Code-de-la-route#content=query:motocycle,pageNum:5,indexOnPage:0,bestMatch:false",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 3038,
+    "kind": "html",
+    "saved_to": "documents/Niger/Code-de-la-route-be1559d5.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://naql.om/assets/resources/LandRegulationsEnglish.pdf",
+    "countries": [
+      "Oman"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Oman",
+    "status": "connection_error",
+    "error": "HTTPSConnectionPool(host='naql.om', port=443): Max retries exceeded with url: /assets/resources/LandRegulationsEnglish.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='naql.om', port=443): Failed to resolve 'naql.om' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "url": "https://corregidora.gob.mx/portal/realiza-policia-de-corregidora-prueba-toxicologica/",
+    "countries": [
+      "Peru"
+    ],
+    "topics": [
+      "Toxicology screening (apart from alcohol)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Peru",
+    "http_status": 403,
+    "final_url": "https://corregidora.gob.mx/portal/realiza-policia-de-corregidora-prueba-toxicologica/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Resolucion-0071-2025-SEL-Indecopi-LPDerecho.pdf",
+    "countries": [
+      "Peru"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Peru",
+    "http_status": 200,
+    "final_url": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Resolucion-0071-2025-SEL-Indecopi-LPDerecho.pdf",
+    "content_type": "application/pdf",
+    "bytes": 215427,
+    "kind": "pdf",
+    "saved_to": "documents/Peru/Resolucion-0071-2025-SEL-Indecopi-LPDerecho-28b88cb8.pdf",
+    "page_count": 20,
+    "extractable_text_sample_chars": 10280,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.gob.pe/institucion/mtc/normas-legales/7625120-002-2026-mtc",
+    "countries": [
+      "Peru"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Peru",
+    "http_status": 200,
+    "final_url": "https://www.gob.pe/institucion/mtc/normas-legales/7625120-002-2026-mtc",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 26331,
+    "kind": "html",
+    "saved_to": "documents/Peru/7625120-002-2026-mtc-bb6a40bd.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.muniate.gob.pe/ate/files/APP/capitulo3.pdf",
+    "countries": [
+      "Peru"
+    ],
+    "topics": [
+      "Stage membership"
+    ],
+    "reference_count": 1,
+    "primary_country": "Peru",
+    "http_status": 200,
+    "final_url": "https://www.muniate.gob.pe/ate/files/APP/capitulo3.pdf",
+    "content_type": "application/pdf",
+    "bytes": 152125,
+    "kind": "pdf",
+    "saved_to": "documents/Peru/capitulo3-b892abb2.pdf",
+    "page_count": 2,
+    "extractable_text_sample_chars": 12426,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.abs-cbn.com/news/business/2025/5/6/dotr-to-allow-motorcycle-taxis-to-continue-operating-while-waiting-for-law-1713",
+    "countries": [
+      "Philippines"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Philippines",
+    "http_status": 200,
+    "final_url": "https://www.abs-cbn.com/news/business/2025/5/6/dotr-to-allow-motorcycle-taxis-to-continue-operating-while-waiting-for-law-1713",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 337839,
+    "kind": "html",
+    "saved_to": "documents/Philippines/dotr-to-allow-motorcycle-taxis-to-continue-operating-while-waiting-for-law-1713-84b0af62.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.lawyer-philippines.com/articles/legal-basis-for-habal-habal-motorcycle-taxi-operations-in-the-philippines",
+    "countries": [
+      "Philippines"
+    ],
+    "topics": [
+      "Fares"
+    ],
+    "reference_count": 1,
+    "primary_country": "Philippines",
+    "http_status": 200,
+    "final_url": "https://www.lawyer-philippines.com/articles/legal-basis-for-habal-habal-motorcycle-taxi-operations-in-the-philippines",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 130401,
+    "kind": "html",
+    "saved_to": "documents/Philippines/legal-basis-for-habal-habal-motorcycle-taxi-operations-in-the-philippines-e0b8efe8.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=3993&language=en",
+    "countries": [
+      "Qatar"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Qatar",
+    "ssl_bypassed": true,
+    "http_status": 200,
+    "final_url": "https://www.almeezan.qa/LawView.aspx?opt&LawID=3993&language=en",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 552934,
+    "kind": "html",
+    "saved_to": "documents/Qatar/LawView-bb9b74bb.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.primature.gouv.cg/wp-content/uploads/2024/07/Decret_Motocycle.pdf",
+    "countries": [
+      "Republic of the Congo"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis",
+      "Multiple passenger restriction",
+      "Other"
+    ],
+    "reference_count": 3,
+    "primary_country": "Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://www.primature.gouv.cg/wp-content/uploads/2024/07/Decret_Motocycle.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1765876,
+    "kind": "pdf",
+    "saved_to": "documents/Republic-of-the-Congo/Decret_Motocycle-37f31fe1.pdf",
+    "page_count": 4,
+    "extractable_text_sample_chars": 0,
+    "likely_scanned": true,
+    "status": "ok"
+  },
+  {
+    "url": "https://police.gov.rw/uploads/tx_download/Traffic_Law_2015_02.pdf",
+    "countries": [
+      "Rwanda"
+    ],
+    "topics": [
+      "Other"
+    ],
+    "reference_count": 1,
+    "primary_country": "Rwanda",
+    "http_status": 200,
+    "final_url": "https://police.gov.rw/uploads/tx_download/Traffic_Law_2015_02.pdf",
+    "content_type": "application/pdf",
+    "bytes": 1306992,
+    "kind": "pdf",
+    "saved_to": "documents/Rwanda/Traffic_Law_2015_02-a7e8ed2b.pdf",
+    "page_count": 108,
+    "extractable_text_sample_chars": 6317,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://dgrn.gov.st/leis/Lei/61_codigo_da_Estrada.pdf",
+    "countries": [
+      "Sao Tome and Principe"
+    ],
+    "topics": [
+      "Driver helmet",
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 2,
+    "primary_country": "Sao Tome and Principe",
+    "http_status": 200,
+    "final_url": "https://dgrn.gov.st/leis/Lei/61_codigo_da_Estrada.pdf",
+    "content_type": "application/pdf",
+    "bytes": 730159,
+    "kind": "pdf",
+    "saved_to": "documents/Sao-Tome-and-Principe/61_codigo_da_Estrada-37da86cc.pdf",
+    "page_count": 57,
+    "extractable_text_sample_chars": 10100,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.spa.gov.sa/en/N2397478",
+    "countries": [
+      "Saudi Arabia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Saudi Arabia",
+    "http_status": 200,
+    "final_url": "https://www.spa.gov.sa/en/N2397478",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 168480,
+    "kind": "html",
+    "saved_to": "documents/Saudi-Arabia/N2397478-4389cd23.html",
+    "status": "ok"
+  },
+  {
     "url": "https://actusen.sn/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-248-valides/",
     "countries": [
       "Senegal"
@@ -86,5 +1679,583 @@
     "kind": "html",
     "saved_to": "documents/Senegal/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-24-206052af.html",
     "status": "ok"
+  },
+  {
+    "url": "https://www.sierra-leone.org/Laws/2007-5p.pdf",
+    "countries": [
+      "Sierra Leone"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Sierra Leone",
+    "http_status": 200,
+    "final_url": "https://www.sierra-leone.org/Laws/2007-5p.pdf",
+    "content_type": "application/pdf",
+    "bytes": 181288,
+    "kind": "pdf",
+    "saved_to": "documents/Sierra-Leone/2007-5p-da15db5c.pdf",
+    "page_count": 48,
+    "extractable_text_sample_chars": 7814,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001749#0000",
+    "countries": [
+      "South Korea"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "South Korea",
+    "http_status": 200,
+    "final_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001749#0000",
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 145060,
+    "kind": "html",
+    "saved_to": "documents/South-Korea/lsInfoP-5f9d3809.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.wto.org/english/thewto_e/acc_e/ssd_e/wtaccssd6_leg_51.pdf",
+    "countries": [
+      "South Sudan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "South Sudan",
+    "http_status": 200,
+    "final_url": "https://www.wto.org/english/thewto_e/acc_e/ssd_e/wtaccssd6_leg_51.pdf",
+    "content_type": "application/pdf",
+    "bytes": 593232,
+    "kind": "pdf",
+    "saved_to": "documents/South-Sudan/wtaccssd6_leg_51-d79272d1.pdf",
+    "page_count": 55,
+    "extractable_text_sample_chars": 3256,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.srilankalaw.lk/revised-statutes/alphabetical-list-of-statutes/732-motor-traffic-act.html",
+    "countries": [
+      "Sri Lanka"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Sri Lanka",
+    "http_status": 200,
+    "final_url": "https://www.srilankalaw.lk/revised-statutes/alphabetical-list-of-statutes/732-motor-traffic-act.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 79214,
+    "kind": "html",
+    "saved_to": "documents/Sri-Lanka/732-motor-traffic-act-65da5b6a.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.aljazeera.net/misc/2011/1/13/%D8%A7%D9%84%D8%B1%D9%83%D8%B4%D8%A9-%D8%AA%D8%BA%D8%B2%D9%88-%D8%B4%D9%88%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85",
+    "countries": [
+      "Sudan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Sudan",
+    "http_status": 200,
+    "final_url": "https://www.aljazeera.net/misc/2011/1/13/%D8%A7%D9%84%D8%B1%D9%83%D8%B4%D8%A9-%D8%AA%D8%BA%D8%B2%D9%88-%D8%B4%D9%88%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 544202,
+    "kind": "html",
+    "saved_to": "documents/Sudan/doc-0c4a9b78.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://syrianobserver.com/foreign-actors/amid-high-fuel-prices-and-low-income-motorbike-taxi-service-in-azaz.html",
+    "countries": [
+      "Syria"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Syria",
+    "http_status": 200,
+    "final_url": "https://syrianobserver.com/foreign-actors/amid-high-fuel-prices-and-low-income-motorbike-taxi-service-in-azaz.html",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 111607,
+    "kind": "html",
+    "saved_to": "documents/Syria/amid-high-fuel-prices-and-low-income-motorbike-taxi-service-in-azaz-8a967a90.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://allafrica.com/stories/201310080089.html",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Association membership"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 403,
+    "final_url": "https://allafrica.com/stories/201310080089.html",
+    "content_type": "text/html",
+    "status": "http_error"
+  },
+  {
+    "url": "https://media.tanzlii.org/media/legislation/331858/source_file/0f7eb67b9a2ae373/2020-78.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Commercial operating license (PSV etc)",
+      "Fares",
+      "Geographic restrictions",
+      "License plate specific to commercial operators",
+      "Operating Fee",
+      "Passenger helmet",
+      "Stage membership",
+      "Vehicle quality check (recurring)",
+      "Vehicle registration (logbook)",
+      "Visible ID (on jacket or elsewhere)"
+    ],
+    "reference_count": 10,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://media.tanzlii.org/media/legislation/331858/source_file/0f7eb67b9a2ae373/2020-78.pdf",
+    "content_type": "application/pdf",
+    "bytes": 582745,
+    "kind": "pdf",
+    "saved_to": "documents/Tanzania/2020-78-f5a62c9c.pdf",
+    "page_count": 19,
+    "extractable_text_sample_chars": 7839,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://tanzlii.org/en/akn/tz/act/gn/2020/78/eng@2020-02-07",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 403,
+    "final_url": "https://tanzlii.org/en/akn/tz/act/gn/2020/78/eng@2020-02-07",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.downtoearth.org.in/africa/solving-one-crisis-by-deepening-another-critics-question-tanzanias-decision-to-tax-imported-vehicles-and-fund-its-hiv-response",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Joining sector fee(s)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.downtoearth.org.in/africa/solving-one-crisis-by-deepening-another-critics-question-tanzanias-decision-to-tax-imported-vehicles-and-fund-its-hiv-response",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 883787,
+    "kind": "html",
+    "saved_to": "documents/Tanzania/solving-one-crisis-by-deepening-another-critics-question-tanzanias-decision-to-t-aadadfb1.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.kaitu.ac.tz/best-bora-kaitu-driving-school-vtc-iringa-mafinga-tanzania-vocational-training-college-new-mpya-posts_35_tanzaniafocused-driving-questions-answers.php",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Driver training"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.kaitu.ac.tz/best-bora-kaitu-driving-school-vtc-iringa-mafinga-tanzania-vocational-training-college-new-mpya-posts_35_tanzaniafocused-driving-questions-answers.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 36019,
+    "kind": "html",
+    "saved_to": "documents/Tanzania/best-bora-kaitu-driving-school-vtc-iringa-mafinga-tanzania-vocational-training-c-4dcaf7d4.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.latra.go.tz/uploads/documents/sw-1668849864-WEBSITE-RIDE%20HAILING.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Safety data sharing w gov (from apps or direct from drivers)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.latra.go.tz/uploads/documents/sw-1668849864-WEBSITE-RIDE%20HAILING.pdf",
+    "content_type": "application/pdf",
+    "bytes": 347704,
+    "kind": "pdf",
+    "saved_to": "documents/Tanzania/sw-1668849864-WEBSITE-RIDE-HAILING-9fc2ad1f.pdf",
+    "page_count": 3,
+    "extractable_text_sample_chars": 4758,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.latra.go.tz/uploads/documents/sw-1737920488-PRIVATE%20HIRE%20SERVICES%20AMENDMENTS%202024.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Multiple passenger restriction",
+      "Passenger age requirement"
+    ],
+    "reference_count": 2,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.latra.go.tz/uploads/documents/sw-1737920488-PRIVATE%20HIRE%20SERVICES%20AMENDMENTS%202024.pdf",
+    "content_type": "application/pdf",
+    "bytes": 338754,
+    "kind": "pdf",
+    "saved_to": "documents/Tanzania/sw-1737920488-PRIVATE-HIRE-SERVICES-AMENDMENTS-2024-4c26f152.pdf",
+    "page_count": 18,
+    "extractable_text_sample_chars": 4433,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.nps.go.tz/uploads/documents/sw-1751369942-The%20Motor%20Vehicles%20Insurance%20Act.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Insurance (third party / liability)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.nps.go.tz/uploads/documents/sw-1751369942-The%20Motor%20Vehicles%20Insurance%20Act.pdf",
+    "content_type": "application/pdf",
+    "bytes": 572539,
+    "kind": "pdf",
+    "saved_to": "documents/Tanzania/sw-1751369942-The-Motor-Vehicles-Insurance-Act-c78b8542.pdf",
+    "page_count": 14,
+    "extractable_text_sample_chars": 5085,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.tbs.go.tz/uploads/files/LIST%20OF%20COMPULSORY%20TANZANIA%20STANDARD%20AS%20OF%20JULY%20%202022.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Helmet quality"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tanzania",
+    "http_status": 404,
+    "final_url": "https://www.tbs.go.tz/uploads/files/LIST%20OF%20COMPULSORY%20TANZANIA%20STANDARD%20AS%20OF%20JULY%20%202022.pdf",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://www.tra.go.tz/images/uploads/acts/The_Road_Traffic_Act.pdf",
+    "countries": [
+      "Tanzania"
+    ],
+    "topics": [
+      "Drivers license",
+      "Other",
+      "Overloading",
+      "Road behavior / standard of service"
+    ],
+    "reference_count": 4,
+    "primary_country": "Tanzania",
+    "http_status": 200,
+    "final_url": "https://www.tra.go.tz/images/uploads/acts/The_Road_Traffic_Act.pdf",
+    "content_type": "application/pdf",
+    "bytes": 961236,
+    "kind": "pdf",
+    "saved_to": "documents/Tanzania/The_Road_Traffic_Act-a2950a1d.pdf",
+    "page_count": 94,
+    "extractable_text_sample_chars": 4210,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://standard.gm/when-laws-lose-their-purposethe-case-for-jakarta-operators-in-rural-gambia/",
+    "countries": [
+      "The Gambia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "The Gambia",
+    "http_status": 403,
+    "final_url": "https://standard.gm/when-laws-lose-their-purposethe-case-for-jakarta-operators-in-rural-gambia/",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://jo.gouv.tg/sites/default/files/JO/JOS_25_11_2023%20-%2068E%20ANNEE%20N%C2%B0%2086%20BIS.pdf",
+    "countries": [
+      "Togo"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Togo",
+    "http_status": 200,
+    "final_url": "https://jo.gouv.tg/sites/default/files/JO/JOS_25_11_2023%20-%2068E%20ANNEE%20N%C2%B0%2086%20BIS.pdf",
+    "content_type": "application/pdf",
+    "bytes": 6974182,
+    "kind": "pdf",
+    "saved_to": "documents/Togo/JOS_25_11_2023---68E-ANNEE-N-86-BIS-418cda50.pdf",
+    "page_count": 72,
+    "extractable_text_sample_chars": 11676,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://english.legal-agenda.com/public-transport-in-tunisia-daily-disintegration/",
+    "countries": [
+      "Tunisia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Tunisia",
+    "http_status": 200,
+    "final_url": "https://english.legal-agenda.com/public-transport-in-tunisia-daily-disintegration/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 115577,
+    "kind": "html",
+    "saved_to": "documents/Tunisia/public-transport-in-tunisia-daily-disintegration-7474319d.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2918&MevzuatTur=1&MevzuatTertip=5",
+    "countries": [
+      "Turkey"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis",
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 2,
+    "primary_country": "Turkey",
+    "ssl_bypassed": true,
+    "http_status": 200,
+    "final_url": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2918&MevzuatTur=1&MevzuatTertip=5",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 67252,
+    "kind": "html",
+    "saved_to": "documents/Turkey/mevzuat-8f4f93c8.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://udls.co.ug/apply-for-your-full-driving-licence-step-by-step/",
+    "countries": [
+      "Uganda"
+    ],
+    "topics": [
+      "Driver training"
+    ],
+    "reference_count": 1,
+    "primary_country": "Uganda",
+    "http_status": 200,
+    "final_url": "https://udls.co.ug/apply-for-your-full-driving-licence-step-by-step/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 130188,
+    "kind": "html",
+    "saved_to": "documents/Uganda/apply-for-your-full-driving-licence-step-by-step-953a3d6e.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://en.vietnamplus.vn/new-decree-simplifies-rules-for-vehicle-inspection-centres-post307712.vnp",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Vehicle quality check (recurring)"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 200,
+    "final_url": "https://en.vietnamplus.vn/new-decree-simplifies-rules-for-vehicle-inspection-centres-post307712.vnp",
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 117271,
+    "kind": "html",
+    "saved_to": "documents/Vietnam/new-decree-simplifies-rules-for-vehicle-inspection-centres-post307712-36e1befc.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Helmet quality"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 200,
+    "final_url": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 396580,
+    "kind": "html",
+    "saved_to": "documents/Vietnam/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1-96d10bf4.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-158-2024-ND-CP-Road-Transport/644980/tieng-anh.aspx",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Online riders regulated"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 403,
+    "final_url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Decree-158-2024-ND-CP-Road-Transport/644980/tieng-anh.aspx",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Law-36-2024-QH15-Road-Traffic-Order-and-Safety/620124/tieng-anh.aspx",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 403,
+    "final_url": "https://thuvienphapluat.vn/van-ban/EN/Giao-thong-Van-tai/Law-36-2024-QH15-Road-Traffic-Order-and-Safety/620124/tieng-anh.aspx",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
+  },
+  {
+    "url": "https://vietnamexploration.com/p/266/motorbike-guide/driving-a-motorcycle-in-vietnam",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Geographic restrictions"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 200,
+    "final_url": "https://vietnamexploration.com/p/266/motorbike-guide/driving-a-motorcycle-in-vietnam",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 27172,
+    "kind": "html",
+    "saved_to": "documents/Vietnam/driving-a-motorcycle-in-vietnam-37c25766.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.fiafoundation.org/media/fgynmocd/aipf-10-year-helmet-law-report-final_r5_spreads.pdf",
+    "countries": [
+      "Vietnam"
+    ],
+    "topics": [
+      "Driver helmet"
+    ],
+    "reference_count": 1,
+    "primary_country": "Vietnam",
+    "http_status": 200,
+    "final_url": "https://www.fiafoundation.org/media/fgynmocd/aipf-10-year-helmet-law-report-final_r5_spreads.pdf",
+    "content_type": "application/pdf",
+    "bytes": 5433296,
+    "kind": "pdf",
+    "saved_to": "documents/Vietnam/aipf-10-year-helmet-law-report-final_r5_spreads-90a8074f.pdf",
+    "page_count": 57,
+    "extractable_text_sample_chars": 2130,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://www.nbcnews.com/news/mideast/yemen-officials-seize-motorcycles-combat-al-qaeda-attacks-n230096",
+    "countries": [
+      "Yemen"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Yemen",
+    "http_status": 200,
+    "final_url": "https://www.nbcnews.com/news/mideast/yemen-officials-seize-motorcycles-combat-al-qaeda-attacks-n230096",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 255098,
+    "kind": "html",
+    "saved_to": "documents/Yemen/yemen-officials-seize-motorcycles-combat-al-qaeda-attacks-n230096-28e49837.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Roads%20and%20Road%20Traffic%20Act.pdf",
+    "countries": [
+      "Zambia"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis",
+      "Multiple passenger restriction"
+    ],
+    "reference_count": 2,
+    "primary_country": "Zambia",
+    "http_status": 200,
+    "final_url": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Roads%20and%20Road%20Traffic%20Act.pdf",
+    "content_type": "application/pdf",
+    "bytes": 3217719,
+    "kind": "pdf",
+    "saved_to": "documents/Zambia/Roads-and-Road-Traffic-Act-675110d4.pdf",
+    "page_count": 542,
+    "extractable_text_sample_chars": 3415,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://bigsky.co.zw/wp-content/uploads/Road-Traffic-Act-Chapter-13-11-updated.pdf",
+    "countries": [
+      "Zimbabwe"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Zimbabwe",
+    "status": "connection_error",
+    "error": "HTTPSConnectionPool(host='bigsky.co.zw', port=443): Max retries exceeded with url: /wp-content/uploads/Road-Traffic-Act-Chapter-13-11-updated.pdf (Caused by NameResolutionError(\"HTTPSConnection(host='bigsky.co.zw', port=443): Failed to resolve 'bigsky.co.zw' ([Errno 11001] getaddrinfo failed)\"))"
+  },
+  {
+    "url": "https://zimlii.org/akn/zw/act/1997/1/eng@2016-12-31",
+    "countries": [
+      "Zimbabwe"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Zimbabwe",
+    "http_status": 403,
+    "final_url": "https://zimlii.org/akn/zw/act/1997/1/eng@2016-12-31",
+    "content_type": "text/html; charset=UTF-8",
+    "status": "http_error"
   }
 ]

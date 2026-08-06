@@ -1,4 +1,89 @@
 {
+  "DZA": [
+    {
+      "path": "documents/Algeria/F2016013-e90dece2.pdf",
+      "kind": "pdf",
+      "title": "F2016013",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "joradp.dz",
+      "bytes": 330330,
+      "pages": 32,
+      "scanned": false,
+      "originalUrl": "https://www.joradp.dz/FTP/jo-francais/2016/F2016013.pdf"
+    }
+  ],
+  "AGO": [
+    {
+      "path": "documents/Angola/decreto-presidencial-n-o-123-22-de-30-de-maio_presidente-da-republica_lex-ao-be14485c.pdf",
+      "kind": "pdf",
+      "title": "Decreto Presidencial N O 123 22 De 30 De Maio Presidente Da Republica Lex Ao",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "files.lex.ao",
+      "bytes": 966909,
+      "pages": 8,
+      "scanned": true,
+      "originalUrl": "https://files.lex.ao/presidente-da-republica/2022/decreto-presidencial-n-o-123-22-de-30-de-maio/download/decreto-presidencial-n-o-123-22-de-30-de-maio_presidente-da-republica_lex-ao.pdf"
+    }
+  ],
+  "BGD": [
+    {
+      "path": "documents/Bangladesh/PP2543-de3a9006.pdf",
+      "kind": "pdf",
+      "title": "PP2543",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "easts.info",
+      "bytes": 694658,
+      "pages": 15,
+      "scanned": false,
+      "originalUrl": "https://easts.info/on-line/proceedings/vol.12/pdf/PP2543.pdf"
+    }
+  ],
+  "BEN": [
+    {
+      "path": "documents/Benin/defaut-port-casque-routes-amende-forfaitaire-fixee-mille-5000-francs-cfa-926d455e.html",
+      "kind": "html",
+      "title": "Defaut Port Casque Routes Amende Forfaitaire Fixee Mille 5000 Francs Cfa",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "gouv.bj",
+      "bytes": 34941,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.gouv.bj/article/2610/defaut-port-casque-routes-amende-forfaitaire-fixee-mille-5000-francs-cfa/"
+    }
+  ],
+  "BWA": [
+    {
+      "path": "documents/Botswana/Chapter-69.01-Road-Traffic-6dd184bc.pdf",
+      "kind": "pdf",
+      "title": "Chapter 69.01 Road Traffic",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "botswanatradeportal.org.bw",
+      "bytes": 521055,
+      "pages": 53,
+      "scanned": false,
+      "originalUrl": "https://www.botswanatradeportal.org.bw/kcfinder/upload/files/Chapter%2069.01%20Road%20Traffic.pdf"
+    }
+  ],
   "BFA": [
     {
       "path": "documents/Burkina-Faso/36-securite-des-transports-b8bc9d95.pdf",
@@ -16,6 +101,215 @@
       "originalUrl": "https://academiedepolice.bf/index.php/telechargement/category/36-securite-des-transports?download=90:le-decret-portant-conditions-et-modalites-d-exploitation-a-titre-onereux-et-pour-compte-propre-des-velomoteurs-motocyclettes-tricycles-et-quadricycles-a-moteur"
     }
   ],
+  "KHM": [
+    {
+      "path": "documents/Cambodia/New-regulation-in-Cambodia-on-road-transportation-services-provided-with-the-use-941bd686.pdf",
+      "kind": "pdf",
+      "title": "New Regulation In Cambodia On Road Transportation Services Provided With The Use",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "vdb-loi.com",
+      "bytes": 552540,
+      "pages": 2,
+      "scanned": false,
+      "originalUrl": "https://www.vdb-loi.com/wp-content/uploads/2021/07/New-regulation-in-Cambodia-on-road-transportation-services-provided-with-the-use-of-digital-technologies.pdf"
+    }
+  ],
+  "CMR": [
+    {
+      "path": "documents/Cameroon/0801-21542-automobile-des-exonerations-fiscales-pour-stimuler-la-vente-des-vehic-e8566f11.html",
+      "kind": "html",
+      "title": "0801 21542 Automobile Des Exonerations Fiscales Pour Stimuler La Vente Des Vehic",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "investiraucameroun.com",
+      "bytes": 215318,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.investiraucameroun.com/gestion-publique/0801-21542-automobile-des-exonerations-fiscales-pour-stimuler-la-vente-des-vehicules-electriques-neufs-au-cameroun"
+    },
+    {
+      "path": "documents/Cameroon/cameroon-accelerates-electric-mobility-bold-tax-incentives-d2506d67.html",
+      "kind": "html",
+      "title": "Cameroon Accelerates Electric Mobility Bold Tax Incentives",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "unep.org",
+      "bytes": 155587,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.unep.org/technical-highlight/cameroon-accelerates-electric-mobility-bold-tax-incentives"
+    },
+    {
+      "path": "documents/Cameroon/cameroon-douala-begins-digital-registration-of-moto-taxi-drivers-ca011bf6.html",
+      "kind": "html",
+      "title": "Cameroon Douala Begins Digital Registration Of Moto Taxi Drivers",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "wearetech.africa",
+      "bytes": 126333,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.wearetech.africa/en/fils-uk/news/public-management/cameroon-douala-begins-digital-registration-of-moto-taxi-drivers"
+    },
+    {
+      "path": "documents/Cameroon/m_Les-defis-de-la-securite-routiere-en-milieux-urbain-au-Cameroun-le-cas-des-mot-17be94c5.html",
+      "kind": "html",
+      "title": "M Les Defis De La Securite Routiere En Milieux Urbain Au Cameroun Le Cas Des Mot",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "memoireonline.com",
+      "bytes": 25954,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.memoireonline.com/02/10/3152/m_Les-defis-de-la-securite-routiere-en-milieux-urbain-au-Cameroun-le-cas-des-motos-taxis-a-Yaoun8.html"
+    },
+    {
+      "path": "documents/Cameroon/Moto-taxi-865bb744.html",
+      "kind": "html",
+      "title": "Moto Taxi",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "logistiqueconseil.org",
+      "bytes": 17699,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.logistiqueconseil.org/Articles/Transport-routier/Moto-taxi.html"
+    }
+  ],
+  "CAF": [
+    {
+      "path": "documents/Central-African-Republic/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos-85093b6d.html",
+      "kind": "html",
+      "title": "33836 Rca Vers La Reglementation Du Transport Des Taxis Motos",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "radiondekeluka.org",
+      "bytes": 57244,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.radiondekeluka.org/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos"
+    }
+  ],
+  "TCD": [
+    {
+      "path": "documents/Chad/32133-d27905de.html",
+      "kind": "html",
+      "title": "32133",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "lepaystchad.com",
+      "bytes": 141421,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.lepaystchad.com"
+    }
+  ],
+  "CHN": [
+    {
+      "path": "documents/China/1017048-6090e51b.html",
+      "kind": "html",
+      "title": "1017048",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "sixthtone.com",
+      "bytes": 29341,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.sixthtone.com/news/1017048"
+    }
+  ],
+  "COL": [
+    {
+      "path": "documents/Colombia/131-9adbae00.html",
+      "kind": "html",
+      "title": "131",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "leyes.co",
+      "bytes": 61906,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://leyes.co/codigo_nacional_de_transito_terrestre/131.htm"
+    },
+    {
+      "path": "documents/Colombia/norma-8d3d49b9.html",
+      "kind": "html",
+      "title": "Norma",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "funcionpublica.gov.co",
+      "bytes": 133837,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=346"
+    },
+    {
+      "path": "documents/Colombia/nuevas-senales-de-transito-para-motos-en-colombia-cuidado-con-una-multa-a1b03cef.html",
+      "kind": "html",
+      "title": "Nuevas Senales De Transito Para Motos En Colombia Cuidado Con Una Multa",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "eluniversal.com.co",
+      "bytes": 333203,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.eluniversal.com.co/colombia/2025/03/06/nuevas-senales-de-transito-para-motos-en-colombia-cuidado-con-una-multa/#goog_rewarded"
+    }
+  ],
+  "COM": [
+    {
+      "path": "documents/Comoros/Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ-metaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyM-b23504f0.pdf",
+      "kind": "pdf",
+      "title": "Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ MetaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyM",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "munganyo.km",
+      "bytes": 5303127,
+      "pages": 110,
+      "scanned": true,
+      "originalUrl": "https://munganyo.km/public/storage/Ru6kwEyNW4W8f8QPy3h8q08rHaIjyQ-metaRMOpY3JldCBOwrAyMC0wNTJQUiBkdSAwMSBhdnJpbCAyMDIwIFByb211bGdhdGlvbiBDb2RlIGRlIGxhIHJvdXRlLnBkZg==-.pdf"
+    }
+  ],
   "COD": [
     {
       "path": "documents/Democratic-Republic-of-the-Congo/congo-le-transport-par-motos-taxis-reglemente-a05f5eb1.html",
@@ -31,9 +325,389 @@
       "pages": null,
       "scanned": null,
       "originalUrl": "https://africa24tv.com/congo-le-transport-par-motos-taxis-reglemente/"
+    },
+    {
+      "path": "documents/Democratic-Republic-of-the-Congo/kinshasa-la-police-interdit-aux-moto-taxis-dacceder-la-commune-de-f201c563.html",
+      "kind": "html",
+      "title": "Kinshasa La Police Interdit Aux Moto Taxis Dacceder La Commune De",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "radiookapi.net",
+      "bytes": 56209,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.radiookapi.net/2024/02/13/actualite/securite/kinshasa-la-police-interdit-aux-moto-taxis-dacceder-la-commune-de"
+    },
+    {
+      "path": "documents/Democratic-Republic-of-the-Congo/Loi.078.022.30.08.1978-ce9f615f.pdf",
+      "kind": "pdf",
+      "title": "Loi.078.022.30.08.1978",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "leganet.cd",
+      "bytes": 543945,
+      "pages": 88,
+      "scanned": false,
+      "originalUrl": "https://www.leganet.cd/Legislation/DroitPenal/Roulage/Loi.078.022.30.08.1978.pdf"
+    },
+    {
+      "path": "documents/Democratic-Republic-of-the-Congo/motos-a-kinshasa-assurance-identification-et-port-des-casques-desormais-obligato-a7769036.html",
+      "kind": "html",
+      "title": "Motos A Kinshasa Assurance Identification Et Port Des Casques Desormais Obligato",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "radiookapi.net",
+      "bytes": 53806,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.radiookapi.net/actualite/2010/09/08/motos-a-kinshasa-assurance-identification-et-port-des-casques-desormais-obligatoires"
+    },
+    {
+      "path": "documents/Democratic-Republic-of-the-Congo/TransaidAmend-2020-MotorcycleTaxisThreeWheelersDRC-PolicyBrief-AfCAP-RAF2114A-20-17cf8dfd.pdf",
+      "kind": "pdf",
+      "title": "TransaidAmend 2020 MotorcycleTaxisThreeWheelersDRC PolicyBrief AfCAP RAF2114A 20",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "research4cap.org",
+      "bytes": 687924,
+      "pages": 4,
+      "scanned": false,
+      "originalUrl": "https://www.research4cap.org/wp-content/uploads/ral/TransaidAmend-2020-MotorcycleTaxisThreeWheelersDRC-PolicyBrief-AfCAP-RAF2114A-200102.pdf"
+    }
+  ],
+  "DJI": [
+    {
+      "path": "documents/Djibouti/Djibouti-Final-Report-1Feb17-d17ce0c5.pdf",
+      "kind": "pdf",
+      "title": "Djibouti Final Report 1Feb17",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "tttfp.org",
+      "bytes": 866771,
+      "pages": 14,
+      "scanned": false,
+      "originalUrl": "https://tttfp.org/wp-content/uploads/2019/06/Djibouti-Final-Report-1Feb17.pdf"
+    }
+  ],
+  "ETH": [
+    {
+      "path": "documents/Ethiopia/road-transport-traffic-control-council-of-ministers-amendment-regulation-no-395-d2041374.html",
+      "kind": "html",
+      "title": "Road Transport Traffic Control Council Of Ministers Amendment Regulation No 395",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": true,
+      "host": "chilot.wordpress.com",
+      "bytes": 172515,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://chilot.wordpress.com/2021/02/10/road-transport-traffic-control-council-of-ministers-amendment-regulation-no-395-2017/"
+    }
+  ],
+  "GHA": [
+    {
+      "path": "documents/Ghana/ACT-683-Rev-Ed-a929acc6.html",
+      "kind": "html",
+      "title": "ACT 683 Rev Ed",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "repository.parliament.gh",
+      "bytes": 498550,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://repository.parliament.gh"
+    },
+    {
+      "path": "documents/Ghana/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024-76abec3b.html",
+      "kind": "html",
+      "title": "Ghana Waives Import Duties On Electric Vehicles For 8 Years Starting 2024",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "cleantechnica.com",
+      "bytes": 126227,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://cleantechnica.com/2023/11/16/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024/"
+    },
+    {
+      "path": "documents/Ghana/National_Electric_Vehicle_Policy-434fd46d.pdf",
+      "kind": "pdf",
+      "title": "National Electric Vehicle Policy",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "mot.gov.gh",
+      "bytes": 32545190,
+      "pages": 44,
+      "scanned": false,
+      "originalUrl": "https://www.mot.gov.gh/files/resources/National_Electric_Vehicle_Policy.pdf"
+    },
+    {
+      "path": "documents/Ghana/Parliament-passes-Road-Traffic-Amendment-Bill-2025-2013343-1c383554.html",
+      "kind": "html",
+      "title": "Parliament Passes Road Traffic Amendment Bill 2025 2013343",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "ghanaweb.com",
+      "bytes": 1905,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.ghanaweb.com/GhanaHomePage/business/Parliament-passes-Road-Traffic-Amendment-Bill-2025-2013343"
+    }
+  ],
+  "GNB": [
+    {
+      "path": "documents/Guinea-Bissau/gbs121648-44bfed0b.pdf",
+      "kind": "pdf",
+      "title": "Gbs121648",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "faolex.fao.org",
+      "bytes": 50594,
+      "pages": 1,
+      "scanned": false,
+      "originalUrl": "https://faolex.fao.org/docs/pdf/gbs121648.pdf"
+    },
+    {
+      "path": "documents/Guinea-Bissau/policia-guineense-proibe-conducao-de-motos-sem-capacete-exige-carta-e-limita-pas-67703e37.html",
+      "kind": "html",
+      "title": "Policia Guineense Proibe Conducao De Motos Sem Capacete Exige Carta E Limita Pas",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "observador.pt",
+      "bytes": 296204,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://observador.pt/2024/07/04/policia-guineense-proibe-conducao-de-motos-sem-capacete-exige-carta-e-limita-passageiros/"
+    }
+  ],
+  "JPN": [
+    {
+      "path": "documents/Japan/326AC0000000183-dee0e5a7.html",
+      "kind": "html",
+      "title": "326AC0000000183",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "laws.e-gov.go.jp",
+      "bytes": 800,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://laws.e-gov.go.jp/law/326AC0000000183/"
+    }
+  ],
+  "KAZ": [
+    {
+      "path": "documents/Kazakhstan/Z030000476_-5fe11038.html",
+      "kind": "html",
+      "title": "Z030000476",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "adilet.zan.kz",
+      "bytes": 238315,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://adilet.zan.kz/eng/docs/Z030000476_"
+    }
+  ],
+  "KEN": [
+    {
+      "path": "documents/Kenya/2026-02-23-what-different-number-plates-mean-0f64ede7.html",
+      "kind": "html",
+      "title": "2026 02 23 What Different Number Plates Mean",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "the-star.co.ke",
+      "bytes": 247121,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.the-star.co.ke/news/2026-02-23-what-different-number-plates-mean"
+    },
+    {
+      "path": "documents/Kenya/eng-2015-03-06-140aa535.html",
+      "kind": "html",
+      "title": "Eng 2015 03 06",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "new.kenyalaw.org",
+      "bytes": 94674,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06"
+    },
+    {
+      "path": "documents/Kenya/eng-2022-12-31-c3ad4f51.html",
+      "kind": "html",
+      "title": "Eng 2022 12 31",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "new.kenyalaw.org",
+      "bytes": 154792,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://new.kenyalaw.org/akn/ke/act/ln/2022/120/eng@2022-12-31"
+    },
+    {
+      "path": "documents/Kenya/source-c858aac8.pdf",
+      "kind": "pdf",
+      "title": "Source",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "new.kenyalaw.org",
+      "bytes": 231694,
+      "pages": 8,
+      "scanned": false,
+      "originalUrl": "https://new.kenyalaw.org/akn/ke/act/ln/2015/19/eng@2015-03-06/source.pdf"
+    }
+  ],
+  "KWT": [
+    {
+      "path": "documents/Kuwait/New-Traffic-Law-in-Kuwait-PDF-1a3ad4b8.pdf",
+      "kind": "pdf",
+      "title": "New Traffic Law In Kuwait PDF",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "kuwaitarticles.com",
+      "bytes": 193224,
+      "pages": 18,
+      "scanned": false,
+      "originalUrl": "https://kuwaitarticles.com/wp-content/uploads/2025/04/New-Traffic-Law-in-Kuwait-PDF.pdf"
+    }
+  ],
+  "LBR": [
+    {
+      "path": "documents/Liberia/2008-REGULATION-GOVERNING-MOTORCYCLE-IN-LIBERIA-82fb01d1.pdf",
+      "kind": "pdf",
+      "title": "2008 REGULATION GOVERNING MOTORCYCLE IN LIBERIA",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "libmsp08.com",
+      "bytes": 130868,
+      "pages": 6,
+      "scanned": false,
+      "originalUrl": "https://libmsp08.com/wp-content/uploads/2024/05/2008-REGULATION-GOVERNING-MOTORCYCLE-IN-LIBERIA.pdf"
+    },
+    {
+      "path": "documents/Liberia/liberia-police-and-motorcyclists-sign-mou-on-road-public-safety-f3589476.html",
+      "kind": "html",
+      "title": "Liberia Police And Motorcyclists Sign Mou On Road Public Safety",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "fpa.news",
+      "bytes": 989668,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://fpa.news/"
+    }
+  ],
+  "LBY": [
+    {
+      "path": "documents/Libya/decree-no-247-of-1994-on-specifying-the-provisions-and-rules-on-traffic-traffic-e2b5e043.html",
+      "kind": "html",
+      "title": "Decree No 247 Of 1994 On Specifying The Provisions And Rules On Traffic Traffic",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "security-legislation.ly",
+      "bytes": 213698,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://security-legislation.ly/latest-laws/decree-no-247-of-1994-on-specifying-the-provisions-and-rules-on-traffic-traffic-signals-and-traffic-etiquette/"
     }
   ],
   "MWI": [
+    {
+      "path": "documents/Malawi/1997-26-47f081ea.pdf",
+      "kind": "pdf",
+      "title": "1997 26",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "media.malawilii.org",
+      "bytes": 775490,
+      "pages": 75,
+      "scanned": false,
+      "originalUrl": "https://media.malawilii.org/media/legislation/11927/source_file/787e847530fc531f/1997-26.pdf"
+    },
+    {
+      "path": "documents/Malawi/eng-2014-12-31-92d98968.html",
+      "kind": "html",
+      "title": "Eng 2014 12 31",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "malawilii.org",
+      "bytes": 896050,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://malawilii.org/akn/mw/act/1997/26/eng@2014-12-31"
+    },
     {
       "path": "documents/Malawi/malawi-e-mobility-brief-f6273ed3.html",
       "kind": "html",
@@ -48,6 +722,255 @@
       "pages": null,
       "scanned": null,
       "originalUrl": "https://africaema.org/research/malawi-e-mobility-brief/"
+    }
+  ],
+  "MYS": [
+    {
+      "path": "documents/Malaysia/Land-Public-Transport-Act-2010-fb5477ee.pdf",
+      "kind": "pdf",
+      "title": "Land Public Transport Act 2010",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "tcclaw.com.my",
+      "bytes": 1610374,
+      "pages": 228,
+      "scanned": false,
+      "originalUrl": "https://tcclaw.com.my/wp-content/uploads/2025/08/Land-Public-Transport-Act-2010.pdf"
+    }
+  ],
+  "MLI": [
+    {
+      "path": "documents/Mali/mali-larrete-du-maire-du-district-au-sujet-des-motos-taxis-obligation-de-carte-g-a5b49bcc.html",
+      "kind": "html",
+      "title": "Mali Larrete Du Maire Du District Au Sujet Des Motos Taxis Obligation De Carte G",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "maliactu.net",
+      "bytes": 108170,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://maliactu.net/mali-larrete-du-maire-du-district-au-sujet-des-motos-taxis-obligation-de-carte-grise-plaque-dimmatriculation-couleur-jaune-limitation-de-vitesse/"
+    }
+  ],
+  "MRT": [
+    {
+      "path": "documents/Mauritania/Mauritania-Transport-Policy-Note-94ea9a1f.pdf",
+      "kind": "pdf",
+      "title": "Mauritania Transport Policy Note",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "documents1.worldbank.org",
+      "bytes": 1323144,
+      "pages": 21,
+      "scanned": false,
+      "originalUrl": "https://documents1.worldbank.org/curated/en/878001625140712976/pdf/Mauritania-Transport-Policy-Note.pdf"
+    }
+  ],
+  "MAR": [
+    {
+      "path": "documents/Morocco/morocco-cracks-down-illegal-motorcycle-taxi-services-major-cities-109378-dc22e367.html",
+      "kind": "html",
+      "title": "Morocco Cracks Down Illegal Motorcycle Taxi Services Major Cities 109378",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "en.bladi.net",
+      "bytes": 39978,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://en.bladi.net/morocco-cracks-down-illegal-motorcycle-taxi-services-major-cities,109378.html"
+    }
+  ],
+  "MOZ": [
+    {
+      "path": "documents/Mozambique/RTA-2019-BR_35_2019-de-10-de-Maio-Regulamento-de-Transporte-Automovel-60eeacd0.pdf",
+      "kind": "pdf",
+      "title": "RTA 2019 BR 35 2019 De 10 De Maio Regulamento De Transporte Automovel",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "inatro.gov.mz",
+      "bytes": 11498261,
+      "pages": 30,
+      "scanned": true,
+      "originalUrl": "https://www.inatro.gov.mz/wp-content/uploads/2019/08/RTA-2019-BR_35_2019-de-10-de-Maio-Regulamento-de-Transporte-Automovel.pdf"
+    }
+  ],
+  "PER": [
+    {
+      "path": "documents/Peru/7625120-002-2026-mtc-bb6a40bd.html",
+      "kind": "html",
+      "title": "7625120 002 2026 Mtc",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "gob.pe",
+      "bytes": 26331,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.gob.pe/institucion/mtc/normas-legales/7625120-002-2026-mtc"
+    },
+    {
+      "path": "documents/Peru/capitulo3-b892abb2.pdf",
+      "kind": "pdf",
+      "title": "Capitulo3",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "muniate.gob.pe",
+      "bytes": 152125,
+      "pages": 2,
+      "scanned": false,
+      "originalUrl": "https://www.muniate.gob.pe/ate/files/APP/capitulo3.pdf"
+    },
+    {
+      "path": "documents/Peru/Resolucion-0071-2025-SEL-Indecopi-LPDerecho-28b88cb8.pdf",
+      "kind": "pdf",
+      "title": "Resolucion 0071 2025 SEL Indecopi LPDerecho",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "img.lpderecho.pe",
+      "bytes": 215427,
+      "pages": 20,
+      "scanned": false,
+      "originalUrl": "https://img.lpderecho.pe/wp-content/uploads/2025/03/Resolucion-0071-2025-SEL-Indecopi-LPDerecho.pdf"
+    }
+  ],
+  "PHL": [
+    {
+      "path": "documents/Philippines/dotr-to-allow-motorcycle-taxis-to-continue-operating-while-waiting-for-law-1713-84b0af62.html",
+      "kind": "html",
+      "title": "Dotr To Allow Motorcycle Taxis To Continue Operating While Waiting For Law 1713",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "abs-cbn.com",
+      "bytes": 337839,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.abs-cbn.com/news/business/2025/5/6/dotr-to-allow-motorcycle-taxis-to-continue-operating-while-waiting-for-law-1713"
+    },
+    {
+      "path": "documents/Philippines/legal-basis-for-habal-habal-motorcycle-taxi-operations-in-the-philippines-e0b8efe8.html",
+      "kind": "html",
+      "title": "Legal Basis For Habal Habal Motorcycle Taxi Operations In The Philippines",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "lawyer-philippines.com",
+      "bytes": 130401,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.lawyer-philippines.com/articles/legal-basis-for-habal-habal-motorcycle-taxi-operations-in-the-philippines"
+    }
+  ],
+  "QAT": [
+    {
+      "path": "documents/Qatar/LawView-bb9b74bb.html",
+      "kind": "html",
+      "title": "LawView",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "almeezan.qa",
+      "bytes": 552934,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.almeezan.qa/LawView.aspx?opt&LawID=3993&language=en"
+    }
+  ],
+  "COG": [
+    {
+      "path": "documents/Republic-of-the-Congo/Decret_Motocycle-37f31fe1.pdf",
+      "kind": "pdf",
+      "title": "Decret Motocycle",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "primature.gouv.cg",
+      "bytes": 1765876,
+      "pages": 4,
+      "scanned": true,
+      "originalUrl": "https://www.primature.gouv.cg/wp-content/uploads/2024/07/Decret_Motocycle.pdf"
+    }
+  ],
+  "RWA": [
+    {
+      "path": "documents/Rwanda/Traffic_Law_2015_02-a7e8ed2b.pdf",
+      "kind": "pdf",
+      "title": "Traffic Law 2015 02",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "police.gov.rw",
+      "bytes": 1306992,
+      "pages": 108,
+      "scanned": false,
+      "originalUrl": "https://police.gov.rw/uploads/tx_download/Traffic_Law_2015_02.pdf"
+    }
+  ],
+  "STP": [
+    {
+      "path": "documents/Sao-Tome-and-Principe/61_codigo_da_Estrada-37da86cc.pdf",
+      "kind": "pdf",
+      "title": "61 Codigo Da Estrada",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "dgrn.gov.st",
+      "bytes": 730159,
+      "pages": 57,
+      "scanned": false,
+      "originalUrl": "https://dgrn.gov.st/leis/Lei/61_codigo_da_Estrada.pdf"
+    }
+  ],
+  "SAU": [
+    {
+      "path": "documents/Saudi-Arabia/N2397478-4389cd23.html",
+      "kind": "html",
+      "title": "N2397478",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "spa.gov.sa",
+      "bytes": 168480,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.spa.gov.sa/en/N2397478"
     }
   ],
   "SEN": [
@@ -65,6 +988,379 @@
       "pages": null,
       "scanned": null,
       "originalUrl": "https://actusen.sn/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-248-valides/"
+    }
+  ],
+  "SLE": [
+    {
+      "path": "documents/Sierra-Leone/2007-5p-da15db5c.pdf",
+      "kind": "pdf",
+      "title": "2007 5p",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "sierra-leone.org",
+      "bytes": 181288,
+      "pages": 48,
+      "scanned": false,
+      "originalUrl": "https://www.sierra-leone.org/Laws/2007-5p.pdf"
+    }
+  ],
+  "KOR": [
+    {
+      "path": "documents/South-Korea/lsInfoP-5f9d3809.html",
+      "kind": "html",
+      "title": "LsInfoP",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "law.go.kr",
+      "bytes": 145060,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.law.go.kr/LSW/lsInfoP.do?lsId=001749#0000"
+    }
+  ],
+  "SSD": [
+    {
+      "path": "documents/South-Sudan/wtaccssd6_leg_51-d79272d1.pdf",
+      "kind": "pdf",
+      "title": "Wtaccssd6 Leg 51",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "wto.org",
+      "bytes": 593232,
+      "pages": 55,
+      "scanned": false,
+      "originalUrl": "https://www.wto.org/english/thewto_e/acc_e/ssd_e/wtaccssd6_leg_51.pdf"
+    }
+  ],
+  "LKA": [
+    {
+      "path": "documents/Sri-Lanka/732-motor-traffic-act-65da5b6a.html",
+      "kind": "html",
+      "title": "732 Motor Traffic Act",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "srilankalaw.lk",
+      "bytes": 79214,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.srilankalaw.lk/revised-statutes/alphabetical-list-of-statutes/732-motor-traffic-act.html"
+    }
+  ],
+  "SDN": [
+    {
+      "path": "documents/Sudan/doc-0c4a9b78.html",
+      "kind": "html",
+      "title": "Doc",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "aljazeera.net",
+      "bytes": 544202,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.aljazeera.net/misc/2011/1/13/%D8%A7%D9%84%D8%B1%D9%83%D8%B4%D8%A9-%D8%AA%D8%BA%D8%B2%D9%88-%D8%B4%D9%88%D8%A7%D8%B1%D8%B9-%D8%A7%D9%84%D8%AE%D8%B1%D8%B7%D9%88%D9%85"
+    }
+  ],
+  "SYR": [
+    {
+      "path": "documents/Syria/amid-high-fuel-prices-and-low-income-motorbike-taxi-service-in-azaz-8a967a90.html",
+      "kind": "html",
+      "title": "Amid High Fuel Prices And Low Income Motorbike Taxi Service In Azaz",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "syrianobserver.com",
+      "bytes": 111607,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://syrianobserver.com/foreign-actors/amid-high-fuel-prices-and-low-income-motorbike-taxi-service-in-azaz.html"
+    }
+  ],
+  "TZA": [
+    {
+      "path": "documents/Tanzania/2020-78-f5a62c9c.pdf",
+      "kind": "pdf",
+      "title": "2020 78",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "media.tanzlii.org",
+      "bytes": 582745,
+      "pages": 19,
+      "scanned": false,
+      "originalUrl": "https://media.tanzlii.org/media/legislation/331858/source_file/0f7eb67b9a2ae373/2020-78.pdf"
+    },
+    {
+      "path": "documents/Tanzania/best-bora-kaitu-driving-school-vtc-iringa-mafinga-tanzania-vocational-training-c-4dcaf7d4.html",
+      "kind": "html",
+      "title": "Best Bora Kaitu Driving School Vtc Iringa Mafinga Tanzania Vocational Training C",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "kaitu.ac.tz",
+      "bytes": 36019,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.kaitu.ac.tz/best-bora-kaitu-driving-school-vtc-iringa-mafinga-tanzania-vocational-training-college-new-mpya-posts_35_tanzaniafocused-driving-questions-answers.php"
+    },
+    {
+      "path": "documents/Tanzania/solving-one-crisis-by-deepening-another-critics-question-tanzanias-decision-to-t-aadadfb1.html",
+      "kind": "html",
+      "title": "Solving One Crisis By Deepening Another Critics Question Tanzanias Decision To T",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "downtoearth.org.in",
+      "bytes": 883787,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.downtoearth.org.in/africa/solving-one-crisis-by-deepening-another-critics-question-tanzanias-decision-to-tax-imported-vehicles-and-fund-its-hiv-response"
+    },
+    {
+      "path": "documents/Tanzania/sw-1668849864-WEBSITE-RIDE-HAILING-9fc2ad1f.pdf",
+      "kind": "pdf",
+      "title": "Sw 1668849864 WEBSITE RIDE HAILING",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "latra.go.tz",
+      "bytes": 347704,
+      "pages": 3,
+      "scanned": false,
+      "originalUrl": "https://www.latra.go.tz/uploads/documents/sw-1668849864-WEBSITE-RIDE%20HAILING.pdf"
+    },
+    {
+      "path": "documents/Tanzania/sw-1737920488-PRIVATE-HIRE-SERVICES-AMENDMENTS-2024-4c26f152.pdf",
+      "kind": "pdf",
+      "title": "Sw 1737920488 PRIVATE HIRE SERVICES AMENDMENTS 2024",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "latra.go.tz",
+      "bytes": 338754,
+      "pages": 18,
+      "scanned": false,
+      "originalUrl": "https://www.latra.go.tz/uploads/documents/sw-1737920488-PRIVATE%20HIRE%20SERVICES%20AMENDMENTS%202024.pdf"
+    },
+    {
+      "path": "documents/Tanzania/sw-1751369942-The-Motor-Vehicles-Insurance-Act-c78b8542.pdf",
+      "kind": "pdf",
+      "title": "Sw 1751369942 The Motor Vehicles Insurance Act",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "nps.go.tz",
+      "bytes": 572539,
+      "pages": 14,
+      "scanned": false,
+      "originalUrl": "https://www.nps.go.tz/uploads/documents/sw-1751369942-The%20Motor%20Vehicles%20Insurance%20Act.pdf"
+    },
+    {
+      "path": "documents/Tanzania/The_Road_Traffic_Act-a2950a1d.pdf",
+      "kind": "pdf",
+      "title": "The Road Traffic Act",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "tra.go.tz",
+      "bytes": 961236,
+      "pages": 94,
+      "scanned": false,
+      "originalUrl": "https://www.tra.go.tz/images/uploads/acts/The_Road_Traffic_Act.pdf"
+    }
+  ],
+  "TGO": [
+    {
+      "path": "documents/Togo/JOS_25_11_2023---68E-ANNEE-N-86-BIS-418cda50.pdf",
+      "kind": "pdf",
+      "title": "JOS 25 11 2023 68E ANNEE N 86 BIS",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "jo.gouv.tg",
+      "bytes": 6974182,
+      "pages": 72,
+      "scanned": false,
+      "originalUrl": "https://jo.gouv.tg/sites/default/files/JO/JOS_25_11_2023%20-%2068E%20ANNEE%20N%C2%B0%2086%20BIS.pdf"
+    }
+  ],
+  "TUN": [
+    {
+      "path": "documents/Tunisia/public-transport-in-tunisia-daily-disintegration-7474319d.html",
+      "kind": "html",
+      "title": "Public Transport In Tunisia Daily Disintegration",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "english.legal-agenda.com",
+      "bytes": 115577,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://english.legal-agenda.com/public-transport-in-tunisia-daily-disintegration/"
+    }
+  ],
+  "TUR": [
+    {
+      "path": "documents/Turkey/mevzuat-8f4f93c8.html",
+      "kind": "html",
+      "title": "Mevzuat",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "mevzuat.gov.tr",
+      "bytes": 67252,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=2918&MevzuatTur=1&MevzuatTertip=5"
+    }
+  ],
+  "UGA": [
+    {
+      "path": "documents/Uganda/apply-for-your-full-driving-licence-step-by-step-953a3d6e.html",
+      "kind": "html",
+      "title": "Apply For Your Full Driving Licence Step By Step",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "udls.co.ug",
+      "bytes": 130188,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://udls.co.ug/apply-for-your-full-driving-licence-step-by-step/"
+    }
+  ],
+  "VNM": [
+    {
+      "path": "documents/Vietnam/aipf-10-year-helmet-law-report-final_r5_spreads-90a8074f.pdf",
+      "kind": "pdf",
+      "title": "Aipf 10 Year Helmet Law Report Final R5 Spreads",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "fiafoundation.org",
+      "bytes": 5433296,
+      "pages": 57,
+      "scanned": false,
+      "originalUrl": "https://www.fiafoundation.org/media/fgynmocd/aipf-10-year-helmet-law-report-final_r5_spreads.pdf"
+    },
+    {
+      "path": "documents/Vietnam/driving-a-motorcycle-in-vietnam-37c25766.html",
+      "kind": "html",
+      "title": "Driving A Motorcycle In Vietnam",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": true,
+      "host": "vietnamexploration.com",
+      "bytes": 27172,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://vietnamexploration.com/p/266/motorbike-guide/driving-a-motorcycle-in-vietnam"
+    },
+    {
+      "path": "documents/Vietnam/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1-96d10bf4.html",
+      "kind": "html",
+      "title": "Law On Road Traffic Order And Safety 2024 No 36 2024 Qh15 360844 D1",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "english.luatvietnam.vn",
+      "bytes": 396580,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://english.luatvietnam.vn/an-ninh-trat-tu/law-on-road-traffic-order-and-safety-2024-no-36-2024-qh15-360844-d1.html"
+    },
+    {
+      "path": "documents/Vietnam/new-decree-simplifies-rules-for-vehicle-inspection-centres-post307712-36e1befc.html",
+      "kind": "html",
+      "title": "New Decree Simplifies Rules For Vehicle Inspection Centres Post307712",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "en.vietnamplus.vn",
+      "bytes": 117271,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://en.vietnamplus.vn/new-decree-simplifies-rules-for-vehicle-inspection-centres-post307712.vnp"
+    }
+  ],
+  "YEM": [
+    {
+      "path": "documents/Yemen/yemen-officials-seize-motorcycles-combat-al-qaeda-attacks-n230096-28e49837.html",
+      "kind": "html",
+      "title": "Yemen Officials Seize Motorcycles Combat Al Qaeda Attacks N230096",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "nbcnews.com",
+      "bytes": 255098,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://www.nbcnews.com/news/mideast/yemen-officials-seize-motorcycles-combat-al-qaeda-attacks-n230096"
+    }
+  ],
+  "ZMB": [
+    {
+      "path": "documents/Zambia/Roads-and-Road-Traffic-Act-675110d4.pdf",
+      "kind": "pdf",
+      "title": "Roads And Road Traffic Act",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": true,
+      "thirdParty": false,
+      "host": "parliament.gov.zm",
+      "bytes": 3217719,
+      "pages": 542,
+      "scanned": false,
+      "originalUrl": "https://www.parliament.gov.zm/sites/default/files/documents/acts/Roads%20and%20Road%20Traffic%20Act.pdf"
     }
   ]
 }

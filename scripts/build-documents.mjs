@@ -19,6 +19,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, extname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { resolveISO3 } from '../src/iso3.js';
 import { classifyHost } from '../src/sources.js';
 
@@ -45,6 +46,32 @@ function titleFromFilename(file) {
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/\b\w/g, (m) => m.toUpperCase()) || basename(file);
+}
+
+// A scraped "document" is sometimes a bot-challenge or a JavaScript-required
+// stub that the fetcher happily stored with HTTP 200. Presenting one of those in
+// the drawer as "Code de la route" would put a Cloudflare error page in front of
+// a national regulator under a GNPT byline, so they are refused entry here.
+//
+// Deliberately conservative: a page must be BOTH near-empty and carry a known
+// challenge/error marker. Real legislation runs to thousands of characters.
+const JUNK_MARKERS = /client challenge|enable javascript|just a moment|checking your browser|access denied|cf-browser-verification|attention required|403 forbidden|are you a robot|captcha|verify you are human|page not found/i;
+const JUNK_TEXT_LIMIT = 1000;
+
+function junkReason(full, ext) {
+  if (!['.html', '.htm'].includes(ext)) return null;
+  let raw;
+  try { raw = readFileSync(full, 'utf8'); } catch { return null; }
+
+  const text = raw
+    .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (text.length >= JUNK_TEXT_LIMIT) return null;
+  const hit = text.slice(0, 3000).match(JUNK_MARKERS);
+  return hit ? `${hit[0]} (${text.length} chars of text)` : null;
 }
 
 function walk(dir) {
@@ -84,6 +111,9 @@ for (const list of Object.values(previous)) {
 
 const manifest = {};
 const unresolved = new Set();
+const rejected = [];
+const duplicates = [];
+const seenContent = new Map();   // sha1 -> first path that had it
 let fileCount = 0;
 
 if (existsSync(DOCS_DIR)) {
@@ -92,12 +122,26 @@ if (existsSync(DOCS_DIR)) {
     if (IGNORE.has(ext)) continue;
 
     const relPath = relative(ROOT, full).replace(/\\/g, '/');
-    // documents/<Country-Name>/<file>
+    // documents/<Country-Name>/<file>. Hyphens usually stand in for spaces, but
+    // some country names genuinely contain one (Guinea-Bissau, Timor-Leste), so
+    // try the folder name as-is before de-hyphenating it.
     const folder = relative(DOCS_DIR, full).replace(/\\/g, '/').split('/')[0];
-    const countryName = folder.replace(/-/g, ' ');
-    const iso3 = resolveISO3(countryName);
+    const iso3 = resolveISO3(folder) ?? resolveISO3(folder.replace(/-/g, ' '));
 
     if (!iso3) { unresolved.add(folder); continue; }
+
+    const junk = junkReason(full, ext);
+    if (junk) { rejected.push({ path: relPath, reason: junk }); continue; }
+
+    // The same instrument often sits behind two URL forms, which the fetcher
+    // stores twice. Keep the first and drop the rest so the drawer does not list
+    // one law twice.
+    const sha = createHash('sha1').update(readFileSync(full)).digest('hex');
+    if (seenContent.has(sha)) {
+      duplicates.push({ path: relPath, sameAs: seenContent.get(sha) });
+      continue;
+    }
+    seenContent.set(sha, relPath);
 
     const inv = bySavedPath.get(relPath);
     const kept = humanEdits.get(relPath) ?? {};
@@ -163,6 +207,17 @@ writeFileSync(OUT_CSV, rows.map((r) => r.map(csvEsc).join(',')).join('\n') + '\n
 const countries = Object.keys(manifest).length;
 console.log(`documents.json   ${fileCount} file(s) across ${countries} countr${countries === 1 ? 'y' : 'ies'}`);
 console.log(`documents-sources.csv   ${inventory.length} source URL(s)`);
+
+if (rejected.length) {
+  console.log(`\n${rejected.length} capture(s) refused as bot-challenge / error pages:`);
+  for (const r of rejected) console.log(`   ${r.path}\n      ${r.reason}`);
+  console.log(`   The Source citation still links these out; only the bogus local copy is withheld.`);
+}
+
+if (duplicates.length) {
+  console.log(`\n${duplicates.length} duplicate capture(s) skipped (byte-identical to another file):`);
+  for (const d of duplicates) console.log(`   ${d.path}\n      same as ${d.sameAs}`);
+}
 
 const withoutOrigin = Object.values(manifest).flat().filter((d) => !d.originalUrl);
 if (withoutOrigin.length) {
