@@ -40,6 +40,7 @@
     "drawer.badge.status": "Status only",
     "drawer.sec.source": "Source",
     "drawer.sec.requirements": "Requirements",
+    "drawer.sec.documents": "Documents",
     "drawer.requirementsCount": "({n} of {total} researched)",
     "drawer.detail.status": "Status",
     "drawer.detail.notes": "Notes",
@@ -80,7 +81,15 @@
     "sources.needsCitation.title": "No citation recorded — only a link. Needs a proper legal citation in the sheet.",
     "sources.via": "via",
     "sources.via.title": "Third-party repository, not the issuing authority. Link may not be durable.",
-    "sources.noLink.title": "No link recorded in the sheet."
+    "sources.noLink.title": "No link recorded in the sheet.",
+
+    "documents.official": "official source",
+    "documents.scanned": "scanned — text not searchable",
+    "documents.pages": "{n} pp.",
+    "documents.origin": "origin",
+    "documents.origin.title": "The issuing site this copy was taken from.",
+    "documents.external": "external link — may expire",
+    "documents.external.title": "No local copy held. This link points to the issuing site and may move or disappear."
   },
 
   "status": {

@@ -1,0 +1,70 @@
+{
+  "BFA": [
+    {
+      "path": "documents/Burkina-Faso/36-securite-des-transports-b8bc9d95.pdf",
+      "kind": "pdf",
+      "title": "36 Securite Des Transports",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "academiedepolice.bf",
+      "bytes": 239889,
+      "pages": 10,
+      "scanned": false,
+      "originalUrl": "https://academiedepolice.bf/index.php/telechargement/category/36-securite-des-transports?download=90:le-decret-portant-conditions-et-modalites-d-exploitation-a-titre-onereux-et-pour-compte-propre-des-velomoteurs-motocyclettes-tricycles-et-quadricycles-a-moteur"
+    }
+  ],
+  "COD": [
+    {
+      "path": "documents/Democratic-Republic-of-the-Congo/congo-le-transport-par-motos-taxis-reglemente-a05f5eb1.html",
+      "kind": "html",
+      "title": "Congo Le Transport Par Motos Taxis Reglemente",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "africa24tv.com",
+      "bytes": 183770,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://africa24tv.com/congo-le-transport-par-motos-taxis-reglemente/"
+    }
+  ],
+  "MWI": [
+    {
+      "path": "documents/Malawi/malawi-e-mobility-brief-f6273ed3.html",
+      "kind": "html",
+      "title": "Malawi E Mobility Brief",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "africaema.org",
+      "bytes": 134972,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://africaema.org/research/malawi-e-mobility-brief/"
+    }
+  ],
+  "SEN": [
+    {
+      "path": "documents/Senegal/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-24-206052af.html",
+      "kind": "html",
+      "title": "Gratuite De Limmatriculation Des Deux Roues 149 048 Dossiers Enroles Dont 124 24",
+      "titleEdited": false,
+      "language": null,
+      "year": null,
+      "official": false,
+      "thirdParty": false,
+      "host": "actusen.sn",
+      "bytes": 374905,
+      "pages": null,
+      "scanned": null,
+      "originalUrl": "https://actusen.sn/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-248-valides/"
+    }
+  ]
+}

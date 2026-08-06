@@ -12,6 +12,7 @@ const svgNS = 'http://www.w3.org/2000/svg';
 const state = {
   atlas: null,
   byNum: new Map(),      // ISO-numeric → country record
+  documents: {},         // ISO3 → [document] (PRD §6); empty until loaded
   filter: null,          // status key, or null for all
   indicator: null,       // indicator slug, or null for legislation status
   selected: null,
@@ -242,6 +243,54 @@ function renderIndicatorPicker() {
 const linkify = (text) =>
   esc(text).replace(/https?:\/\/[^\s;,)]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
 
+const KB = 1024;
+function fileSize(bytes) {
+  if (!bytes) return '';
+  return bytes >= KB * KB ? `${(bytes / (KB * KB)).toFixed(1)} MB` : `${Math.round(bytes / KB)} KB`;
+}
+
+// Documents section — PRD.md §6. Hidden entirely when a country has none, so the
+// gap is not advertised on every visit.
+//
+// Two link targets, and the difference is stated rather than implied:
+//   local copy  → our own file, durable
+//   origin only → the issuing site, which may move or disappear
+function renderDocuments(iso3) {
+  const docs = state.documents?.[iso3] ?? [];
+  if (!docs.length) return '';
+
+  const items = docs.map((d) => {
+    const meta = [];
+    if (d.kind) meta.push(esc(d.kind.toUpperCase()));
+    if (d.pages) meta.push(esc(t('ui', 'documents.pages', { n: d.pages })));
+    if (d.bytes) meta.push(esc(fileSize(d.bytes)));
+    if (d.language) meta.push(esc(d.language.toUpperCase()));
+    if (d.year) meta.push(esc(d.year));
+    if (d.official) meta.push(`<span class="official">${esc(t('ui', 'documents.official'))}</span>`);
+    if (d.scanned) meta.push(`<span class="scanned">${esc(t('ui', 'documents.scanned'))}</span>`);
+
+    // The local copy is the primary link precisely because the origin may rot.
+    const head = d.path
+      ? `<a href="${esc(d.path)}" target="_blank" rel="noopener">${esc(d.title)}</a>`
+      : d.originalUrl
+        ? `<a href="${esc(d.originalUrl)}" target="_blank" rel="noopener">${esc(d.title)}</a>
+           <span class="external" title="${esc(t('ui', 'documents.external.title'))}">${esc(t('ui', 'documents.external'))}</span>`
+        : `<span class="no-link">${esc(d.title)}</span>`;
+
+    // Keep the origin reachable even when we serve a copy — a regulator may need
+    // to confirm the copy against the issuing authority.
+    const origin = d.path && d.originalUrl
+      ? `<a class="origin" href="${esc(d.originalUrl)}" target="_blank" rel="noopener"
+            title="${esc(t('ui', 'documents.origin.title'))}">${esc(t('ui', 'documents.origin'))}${d.host ? ` · ${esc(d.host)}` : ''}</a>`
+      : '';
+
+    return `<li>${head}${meta.length ? ` <span class="meta">${meta.join(' · ')}</span>` : ''}${origin}</li>`;
+  });
+
+  return `<h3 class="sec">${esc(t('ui', 'drawer.sec.documents'))}</h3>
+    <ul class="documents">${items.join('')}</ul>`;
+}
+
 function openCountry(iso3) {
   const c = state.atlas.countries.find((x) => x.iso3 === iso3);
   if (!c) return;
@@ -321,6 +370,8 @@ function openCountry(iso3) {
   }
   // Countries with no indicator research simply have no Requirements section.
   // An empty-state message would draw attention to the gap on every visit.
+
+  html += renderDocuments(c.iso3);
 
   html += `<div class="cite">
     <button id="copy-cite">${esc(t('ui', 'drawer.copyCitation'))}</button>
@@ -544,6 +595,18 @@ async function init() {
   if (undrawable.length) {
     console.warn(`[atlas] ${undrawable.length} country/countries could not be drawn:`, undrawable);
   }
+
+  // Documents are additive: a missing or malformed manifest must degrade to
+  // "no Documents section", never to a broken map. Deliberately not in the
+  // Promise.all above — it is not worth delaying first paint for.
+  fetchWithTimeout('data/documents.json', CONFIG.localTimeoutMs)
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((docs) => {
+      state.documents = docs ?? {};
+      // Repaint the drawer if the user opened a country before this landed.
+      if (state.selected) openCountry(state.selected);
+    })
+    .catch(() => { state.documents = {}; });
 
   paintProvenance($('#provenance'), loaded);
 

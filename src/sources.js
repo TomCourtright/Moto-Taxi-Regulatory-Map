@@ -39,7 +39,7 @@ const OFFICIAL_HINTS = [
 const PINPOINT_RE =
   /^(art\.?|article|arts\.?|sec\.?|section|§+|reg\.?|regulation|rule|para\.?|paragraph|ch\.?|chapter|sched|schedule|clause|pt\.?|part)\b/i;
 
-function classifyHost(url) {
+export function classifyHost(url) {
   let host = '';
   try { host = new URL(url).hostname.replace(/^www\./, '').toLowerCase(); }
   catch { return { host: '', thirdParty: false, official: false }; }

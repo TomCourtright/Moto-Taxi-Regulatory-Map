@@ -40,6 +40,7 @@
     "drawer.badge.status": "Statut seulement",
     "drawer.sec.source": "Source",
     "drawer.sec.requirements": "Exigences",
+    "drawer.sec.documents": "Documents",
     "drawer.requirementsCount": "({n} sur {total} étudiées)",
     "drawer.detail.status": "Statut",
     "drawer.detail.notes": "Notes",
@@ -80,7 +81,15 @@
     "sources.needsCitation.title": "Aucune citation enregistrée — seulement un lien. Nécessite une citation juridique dans la feuille.",
     "sources.via": "via",
     "sources.via.title": "Dépôt tiers, pas l'autorité émettrice. Le lien peut ne pas être durable.",
-    "sources.noLink.title": "Aucun lien enregistré dans la feuille."
+    "sources.noLink.title": "Aucun lien enregistré dans la feuille.",
+
+    "documents.official": "source officielle",
+    "documents.scanned": "numérisé — texte non consultable",
+    "documents.pages": "{n} p.",
+    "documents.origin": "origine",
+    "documents.origin.title": "Le site émetteur d'où provient cette copie.",
+    "documents.external": "lien externe — peut expirer",
+    "documents.external.title": "Aucune copie locale conservée. Ce lien renvoie au site émetteur et peut changer ou disparaître."
   },
 
   "status": {

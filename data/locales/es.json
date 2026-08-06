@@ -40,6 +40,7 @@
     "drawer.badge.status": "Solo estado",
     "drawer.sec.source": "Fuente",
     "drawer.sec.requirements": "Requisitos",
+    "drawer.sec.documents": "Documentos",
     "drawer.requirementsCount": "({n} de {total} investigados)",
     "drawer.detail.status": "Estado",
     "drawer.detail.notes": "Notas",
@@ -80,7 +81,15 @@
     "sources.needsCitation.title": "No se registró cita — solo un enlace. Necesita una cita legal adecuada en la hoja.",
     "sources.via": "vía",
     "sources.via.title": "Repositorio de terceros, no la autoridad emisora. El enlace puede no ser duradero.",
-    "sources.noLink.title": "No se registró enlace en la hoja."
+    "sources.noLink.title": "No se registró enlace en la hoja.",
+
+    "documents.official": "fuente oficial",
+    "documents.scanned": "escaneado — texto no consultable",
+    "documents.pages": "{n} pp.",
+    "documents.origin": "origen",
+    "documents.origin.title": "El sitio emisor del que se obtuvo esta copia.",
+    "documents.external": "enlace externo — puede caducar",
+    "documents.external.title": "No se conserva copia local. Este enlace apunta al sitio emisor y puede cambiar o desaparecer."
   },
 
   "status": {
