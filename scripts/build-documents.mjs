@@ -16,18 +16,23 @@
 // a regulator-facing document list deserves better than "36 Securite Des
 // Transports". Everything else is re-derived each run.
 
-import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync, unlinkSync } from 'node:fs';
 import { join, relative, extname, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { resolveISO3 } from '../src/iso3.js';
-import { classifyHost } from '../src/sources.js';
+import { classifyHost, parseSources } from '../src/sources.js';
 
 const ROOT = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const DOCS_DIR = join(ROOT, 'documents');
 const INVENTORY = join(ROOT, 'data', 'inventory.json');
+const ATLAS = join(ROOT, 'data', 'atlas.json');
 const OUT_JSON = join(ROOT, 'data', 'documents.json');
 const OUT_CSV = join(ROOT, 'data', 'documents-sources.csv');
+
+// --prune deletes captures this script refuses, after recording the verdict in
+// the ledger so the loss stays visible. See PRUNE handling below.
+const PRUNE = process.argv.includes('--prune');
 
 // Anything we would not want to hand a regulator as a "document".
 const IGNORE = new Set(['.md', '.json', '.bin', '.gitkeep', '']);
@@ -89,6 +94,42 @@ function walk(dir) {
 const inventory = readJSON(INVENTORY, []);
 const previous = readJSON(OUT_JSON, {});
 
+// --- titles from the sheet's own citations ----------------------------------
+// A filename-derived title like "Eng 2015 03 06" is useless to a regulator, but
+// the sheet often already carries a proper citation for that exact URL. Reuse it
+// rather than asking anyone to retype it here. SOURCES.md is the authoring guide
+// for the format this consumes.
+const urlKey = (u) =>
+  String(u ?? '').trim().replace(/#.*$/, '').replace(/\/+$/, '').toLowerCase();
+
+const citationByUrl = new Map();
+{
+  const atlas = readJSON(ATLAS, null);
+  const cells = [];
+  for (const c of atlas?.countries ?? []) {
+    if (c.statusSource) cells.push(c.statusSource);
+    for (const rec of Object.values(c.indicators ?? {})) {
+      if (rec?.source) cells.push(rec.source);
+    }
+  }
+  for (const cell of cells) {
+    for (const s of parseSources(cell)) {
+      // `untitled` means the cell held only a URL — nothing worth borrowing.
+      if (!s.url || s.untitled || !s.citation || s.citation === s.host) continue;
+      // A multi-URL cell leaves fragments like "(1)  (2) https://…" as the
+      // citation. A citation must never embed a URL, and must read as words.
+      if (/https?:\/\//i.test(s.citation)) continue;
+      if ((s.citation.match(/\p{L}/gu) ?? []).length < 6) continue;
+      const key = urlKey(s.url);
+      // First citation wins; they are near-identical when a URL repeats, and
+      // last-wins would make the output depend on country ordering.
+      // The pinpoint is deliberately dropped — the file is the whole instrument,
+      // not the one article the sheet happened to cite it for.
+      if (!citationByUrl.has(key)) citationByUrl.set(key, s.citation);
+    }
+  }
+}
+
 // saved_to path -> inventory entry, so a file on disk can find its origin URL.
 const bySavedPath = new Map();
 for (const e of inventory) {
@@ -149,10 +190,16 @@ if (existsSync(DOCS_DIR)) {
     const origin = inv?.final_url ?? inv?.url ?? null;
     const host = origin ? classifyHost(origin) : null;
 
+    // Title precedence: a human's wording, then the sheet's citation, then the
+    // filename as a last resort.
+    const sheetCitation =
+      citationByUrl.get(urlKey(inv?.url)) ?? citationByUrl.get(urlKey(inv?.final_url)) ?? null;
+
     (manifest[iso3] ??= []).push({
       path: relPath,
       kind: ext.replace('.', ''),
-      title: kept.titleEdited ? kept.title : titleFromFilename(full),
+      title: kept.titleEdited ? kept.title : (sheetCitation ?? titleFromFilename(full)),
+      titleSource: kept.titleEdited ? 'human' : (sheetCitation ? 'sheet' : 'filename'),
       titleEdited: kept.titleEdited ?? false,
       language: kept.language ?? null,
       year: kept.year ?? null,
@@ -179,6 +226,39 @@ for (const list of Object.values(manifest)) {
 
 writeFileSync(OUT_JSON, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
 
+// --- prune ------------------------------------------------------------------
+// Deleting a refused capture must not delete the KNOWLEDGE that it was refused,
+// or the source silently reverts to looking un-attempted. So the ledger entry is
+// rewritten first: status becomes `bot_challenge`, saved_to is cleared, and the
+// reason is recorded. documents-sources.csv (written below) then shows the source
+// with no local copy and a stated reason, permanently.
+//
+// Clearing status also means `download_sources.py --retry-failed` will try these
+// again later, which is the behaviour we want — the block may be temporary.
+if (PRUNE && rejected.length) {
+  const byPath = new Map(rejected.map((r) => [r.path, r.reason]));
+  let updated = 0;
+  for (const e of inventory) {
+    const saved = (e.saved_to ?? '').replace(/\\/g, '/');
+    if (!byPath.has(saved)) continue;
+    e.status = 'bot_challenge';
+    e.rejected_reason = byPath.get(saved);
+    e.rejected_path = saved;
+    delete e.saved_to;
+    updated++;
+  }
+  writeFileSync(INVENTORY, JSON.stringify(inventory, null, 2) + '\n', 'utf8');
+
+  let deleted = 0;
+  for (const r of rejected) {
+    const abs = join(ROOT, r.path);
+    if (!existsSync(abs)) continue;
+    unlinkSync(abs);
+    deleted++;
+  }
+  console.log(`\n--prune: deleted ${deleted} refused capture(s); ${updated} ledger entr${updated === 1 ? 'y' : 'ies'} marked bot_challenge.`);
+}
+
 // --- fallback ledger -------------------------------------------------------
 // Every URL we know about, whether or not we hold a copy. This is the file that
 // makes the local PDFs disposable rather than precious.
@@ -187,9 +267,13 @@ const csvEsc = (v) => {
   return /[",\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 };
 
-const rows = [['country', 'iso3', 'url', 'final_url', 'status', 'kind', 'bytes', 'local_path']];
+const rows = [['country', 'iso3', 'url', 'final_url', 'status', 'kind', 'bytes', 'local_path', 'no_local_copy_because']];
 for (const e of inventory) {
   const country = e.primary_country ?? (e.countries ?? [])[0] ?? '';
+  const saved = (e.saved_to ?? '').replace(/\\/g, '/');
+  // Say why a source has no local copy, so a gap reads as a known outcome
+  // rather than as work nobody has attempted.
+  const why = saved ? '' : (e.rejected_reason ?? e.error ?? (e.status === 'ok' ? '' : e.status ?? ''));
   rows.push([
     country,
     resolveISO3(country) ?? '',
@@ -198,7 +282,8 @@ for (const e of inventory) {
     e.status ?? '',
     e.kind ?? '',
     e.bytes ?? '',
-    (e.saved_to ?? '').replace(/\\/g, '/'),
+    saved,
+    String(why).slice(0, 200),
   ]);
 }
 writeFileSync(OUT_CSV, rows.map((r) => r.map(csvEsc).join(',')).join('\n') + '\n', 'utf8');

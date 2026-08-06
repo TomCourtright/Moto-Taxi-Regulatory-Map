@@ -38,10 +38,50 @@ legislation.
 
 ---
 
+## Bad captures are refused, not shown
+
+Scrapers sometimes save a Cloudflare bot-challenge or a "please enable
+JavaScript" stub with a cheerful HTTP 200. One 3 KB *Client Challenge* page was
+captured seven times and would have appeared as the road code of Cameroon, Cape
+Verde, Chad, Gabon, Ivory Coast and Niger.
+
+The build script refuses any capture that is both near-empty and carries a
+challenge/error marker, and reports each one. The country's Source citation still
+links out — only the bogus local copy is withheld.
+
+To delete the refused files:
+
+```bash
+node scripts/build-documents.mjs --prune
+```
+
+This records the verdict in `data/inventory.json` (status `bot_challenge`, with
+the reason) **before** deleting, so `documents-sources.csv` keeps showing that
+source with no local copy and a stated cause. A gap should read as a known
+outcome, never as work nobody attempted. Because the status is no longer `ok`,
+`download_sources.py --retry-failed` will try those URLs again later — the block
+may be temporary.
+
+Byte-identical captures of one instrument under two URL forms are deduplicated
+too, so a law is never listed twice.
+
+---
+
 ## Better titles, languages, years
 
-The auto-derived title is a placeholder. To improve it, edit
-`data/documents.json` and set `titleEdited: true` on that entry:
+Titles come from, in order of preference:
+
+1. **A human's wording** in `data/documents.json` (see below)
+2. **The sheet's own citation** for that URL, matched automatically
+3. **The filename**, as a last resort
+
+Right now (2) yields almost nothing: of 235 source entries with a URL in the
+sheet, **221 are bare URLs with no citation**, so only one document gets a real
+title this way. This improves on its own as those citations get filled in — which
+[SOURCES.md](../SOURCES.md) §7 already flags as the priority. Every citation
+added to the sheet upgrades a document title here for free.
+
+To set a title by hand, edit `data/documents.json` and set `titleEdited: true`:
 
 ```json
 {

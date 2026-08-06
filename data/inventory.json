@@ -337,8 +337,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Cameroon/resource-center-isanglegal-com-CODE-DE-LA-ROUTE-CAMEROUNAIS-CEMAC-da7261b2.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Cameroon/resource-center-isanglegal-com-CODE-DE-LA-ROUTE-CAMEROUNAIS-CEMAC-da7261b2.html"
   },
   {
     "url": "https://www.unep.org/technical-highlight/cameroon-accelerates-electric-mobility-bold-tax-incentives",
@@ -391,8 +392,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-e718a39b.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-e718a39b.html"
   },
   {
     "url": "https://www.scribd.com/document/695121574/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada#content=query:passageiro,pageNum:28,indexOnPage:0,bestMatch:false",
@@ -409,8 +411,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-80cbb1bf.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Cape-Verde/Decreto-Legislativo-4-2005-Aprova-o-Novo-CoI-digo-de-Estrada-80cbb1bf.html"
   },
   {
     "url": "https://www.radiondekeluka.org/33836-rca-vers-la-reglementation-du-transport-des-taxis-motos",
@@ -463,8 +466,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Chad/Code-de-la-route-230929-195113-c50bbb95.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Chad/Code-de-la-route-230929-195113-c50bbb95.html"
   },
   {
     "url": "https://www.sixthtone.com/news/1017048",
@@ -759,8 +763,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Gabon/DECRET-N-000311-e5370aca.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Gabon/DECRET-N-000311-e5370aca.html"
   },
   {
     "url": "https://cleantechnica.com/2023/11/16/ghana-waives-import-duties-on-electric-vehicles-for-8-years-starting-2024/",
@@ -923,8 +928,9 @@
     "content_type": "text/html",
     "bytes": 5616,
     "kind": "html",
-    "saved_to": "documents/Indonesia/inilah-keputusan-menhub-soal-besaran-tarif-jasa-ojek-dengan-aplikasi-f3c490ab.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "enable JavaScript (92 chars of text)",
+    "rejected_path": "documents/Indonesia/inilah-keputusan-menhub-soal-besaran-tarif-jasa-ojek-dengan-aplikasi-f3c490ab.html"
   },
   {
     "url": "https://www.scribd.com/document/925975023/motorbike-taxi",
@@ -941,8 +947,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Ivory-Coast/motorbike-taxi-a085c5db.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Ivory-Coast/motorbike-taxi-a085c5db.html"
   },
   {
     "url": "https://laws.e-gov.go.jp/law/326AC0000000183/",
@@ -1208,8 +1215,9 @@
     "content_type": "text/html",
     "bytes": 1439,
     "kind": "html",
-    "saved_to": "documents/Madagascar/taxis-moto-linformel-inonde-le-secteur-le-processus-de-formalisation-se-poursuit-d8e66ba4.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "enable javascript (117 chars of text)",
+    "rejected_path": "documents/Madagascar/taxis-moto-linformel-inonde-le-secteur-le-processus-de-formalisation-se-poursuit-d8e66ba4.html"
   },
   {
     "url": "https://africaema.org/research/malawi-e-mobility-brief/",
@@ -1432,8 +1440,9 @@
     "content_type": "text/html; charset=utf-8",
     "bytes": 3038,
     "kind": "html",
-    "saved_to": "documents/Niger/Code-de-la-route-be1559d5.html",
-    "status": "ok"
+    "status": "bot_challenge",
+    "rejected_reason": "Client Challenge (303 chars of text)",
+    "rejected_path": "documents/Niger/Code-de-la-route-be1559d5.html"
   },
   {
     "url": "https://naql.om/assets/resources/LandRegulationsEnglish.pdf",
