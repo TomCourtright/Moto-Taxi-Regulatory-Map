@@ -1,0 +1,77 @@
+Rows in CSV:                      454
+Country blocks detected:          113
+Unique URLs:                      122
+Total URL references (with dupes): 170
+Non-URL source references (deduped): 137
+
+Countries with URLs:
+  Afghanistan: 1
+  Algeria: 1
+  Angola: 1
+  Azerbaijan: 1
+  Bangladesh: 1
+  Benin: 4
+  Botswana: 1
+  Burkina Faso: 1
+  Burundi: 1
+  Cambodia: 1
+  Cameroon: 8
+  Cape Verde: 2
+  Central African Republic: 1
+  Chad: 2
+  China: 1
+  Colombia: 3
+  Comoros: 1
+  Democratic Republic of the Congo: 5
+  Djibouti: 1
+  Equatorial Guinea: 1
+  Eritrea: 1
+  Eswatini: 1
+  Ethiopia: 1
+  Gabon: 1
+  Ghana: 5
+  Guinea-Bissau: 2
+  Indonesia: 2
+  Ivory Coast: 1
+  Japan: 1
+  Kazakhstan: 1
+  Kenya: 6
+  Kuwait: 1
+  Lesotho: 1
+  Liberia: 2
+  Libya: 1
+  Madagascar: 1
+  Malawi: 3
+  Malaysia: 1
+  Mali: 2
+  Mauritania: 1
+  Morocco: 1
+  Mozambique: 1
+  Myanmar: 1
+  Namibia: 1
+  Niger: 1
+  Oman: 1
+  Peru: 4
+  Philippines: 2
+  Qatar: 1
+  Republic of the Congo: 1
+  Rwanda: 1
+  Sao Tome and Principe: 1
+  Saudi Arabia: 1
+  Senegal: 1
+  Sierra Leone: 1
+  South Korea: 1
+  South Sudan: 1
+  Sri Lanka: 1
+  Sudan: 1
+  Syria: 1
+  Tanzania: 10
+  The Gambia: 1
+  Togo: 1
+  Tunisia: 1
+  Turkey: 1
+  Uganda: 1
+  Vietnam: 6
+  Yemen: 1
+  Zambia: 1
+  Zimbabwe: 2

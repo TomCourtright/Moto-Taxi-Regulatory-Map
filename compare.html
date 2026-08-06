@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare countries — Moto-Taxi Regulation Atlas</title>
+<meta name="description" content="Compare moto-taxi regulatory requirements side by side across countries. Global Network for Popular Transportation.">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
+      <h1 data-t="ui.brand.title">Moto-Taxi Regulation Atlas</h1>
+      <div class="org" data-t="ui.brand.org">Global Network for Popular Transportation</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html" data-t="ui.nav.map">Map</a>
+    <a href="compare.html" data-t="ui.nav.compare" aria-current="page">Compare</a>
+    <a href="data.html" data-t="ui.nav.data">Data</a>
+  </nav>
+
+  <div class="header-right">
+    <div class="provenance" id="provenance"></div>
+    <div data-lang-switcher></div>
+  </div>
+</header>
+
+<main class="page">
+  <div class="page-inner">
+
+    <section class="picker">
+      <div class="picker-head">
+        <h2 data-t="ui.compare.title">Compare requirements</h2>
+        <p>
+          <span data-t="ui.compare.desc.a">Select up to four countries. Only the</span>
+          <strong id="full-count"></strong>
+          <span data-t="ui.compare.desc.b">countries with indicator-level research can be compared — the rest have a national status but no requirement detail.</span>
+        </p>
+      </div>
+      <div class="country-chips" id="country-chips"></div>
+    </section>
+
+    <section class="toolbar" id="toolbar" hidden>
+      <label class="switch">
+        <input type="checkbox" id="diff-only">
+        <span data-t="ui.compare.filter.diffOnly">Only show rows where they differ</span>
+      </label>
+      <div class="toolbar-right">
+        <span class="row-count" id="row-count"></span>
+        <button id="export-csv" data-t="ui.compare.export">Download CSV</button>
+      </div>
+    </section>
+
+    <section id="table-wrap" class="table-wrap"></section>
+
+    <p class="hint" id="hint" data-t="ui.compare.hint">Pick two or more countries above to build a comparison.</p>
+
+  </div>
+</main>
+
+<div id="status-screen">
+  <div>
+    <div class="msg" data-t="ui.loading.msg">Loading the atlas…</div>
+    <div class="sub" data-t="ui.loading.sub">Fetching the live regulation sheet</div>
+  </div>
+</div>
+
+<script type="module" src="src/compare.js"></script>
+</body>
+</html>

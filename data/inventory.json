@@ -1,0 +1,90 @@
+[
+  {
+    "url": "https://academiedepolice.bf/index.php/telechargement/category/36-securite-des-transports?download=90:le-decret-portant-conditions-et-modalites-d-exploitation-a-titre-onereux-et-pour-compte-propre-des-velomoteurs-motocyclettes-tricycles-et-quadricycles-a-moteur",
+    "countries": [
+      "Burkina Faso"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Burkina Faso",
+    "http_status": 200,
+    "final_url": "https://academiedepolice.bf/index.php/telechargement/category/36-securite-des-transports?download=90:le-decret-portant-conditions-et-modalites-d-exploitation-a-titre-onereux-et-pour-compte-propre-des-velomoteurs-motocyclettes-tricycles-et-quadricycles-a-moteur",
+    "content_type": "application/pdf",
+    "bytes": 239889,
+    "kind": "pdf",
+    "saved_to": "documents/Burkina-Faso/36-securite-des-transports-b8bc9d95.pdf",
+    "page_count": 10,
+    "extractable_text_sample_chars": 3967,
+    "likely_scanned": false,
+    "status": "ok"
+  },
+  {
+    "url": "https://africa24tv.com/congo-le-transport-par-motos-taxis-reglemente",
+    "countries": [
+      "Democratic Republic of the Congo"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Democratic Republic of the Congo",
+    "http_status": 200,
+    "final_url": "https://africa24tv.com/congo-le-transport-par-motos-taxis-reglemente/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 183770,
+    "kind": "html",
+    "saved_to": "documents/Democratic-Republic-of-the-Congo/congo-le-transport-par-motos-taxis-reglemente-a05f5eb1.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://adilet.zan.kz/eng/docs/Z030000476_",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Kazakhstan",
+    "status": "ssl_error",
+    "error": "HTTPSConnectionPool(host='adilet.zan.kz', port=443): Max retries exceeded with url: /eng/docs/Z030000476_ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)')))"
+  },
+  {
+    "url": "https://africaema.org/research/malawi-e-mobility-brief/",
+    "countries": [
+      "Malawi"
+    ],
+    "topics": [
+      "Fiscal incentives for electrification"
+    ],
+    "reference_count": 1,
+    "primary_country": "Malawi",
+    "http_status": 200,
+    "final_url": "https://africaema.org/research/malawi-e-mobility-brief/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 134972,
+    "kind": "html",
+    "saved_to": "documents/Malawi/malawi-e-mobility-brief-f6273ed3.html",
+    "status": "ok"
+  },
+  {
+    "url": "https://actusen.sn/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-248-valides/",
+    "countries": [
+      "Senegal"
+    ],
+    "topics": [
+      "Legislation Addressing Moto-Taxis"
+    ],
+    "reference_count": 1,
+    "primary_country": "Senegal",
+    "http_status": 200,
+    "final_url": "https://actusen.sn/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-248-valides/",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 374905,
+    "kind": "html",
+    "saved_to": "documents/Senegal/gratuite-de-limmatriculation-des-deux-roues-149-048-dossiers-enroles-dont-124-24-206052af.html",
+    "status": "ok"
+  }
+]

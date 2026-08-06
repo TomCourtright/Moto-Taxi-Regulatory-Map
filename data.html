@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data table — Moto-Taxi Regulation Atlas</title>
+<meta name="description" content="The full moto-taxi regulation dataset: every country and requirement, searchable and exportable. Global Network for Popular Transportation.">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
+      <h1 data-t="ui.brand.title">Moto-Taxi Regulation Atlas</h1>
+      <div class="org" data-t="ui.brand.org">Global Network for Popular Transportation</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html" data-t="ui.nav.map">Map</a>
+    <a href="compare.html" data-t="ui.nav.compare">Compare</a>
+    <a href="data.html" data-t="ui.nav.data" aria-current="page">Data</a>
+  </nav>
+
+  <div class="header-right">
+    <div class="provenance" id="provenance"></div>
+    <div data-lang-switcher></div>
+  </div>
+</header>
+
+<main class="page">
+  <div class="page-inner wide">
+
+    <div class="filters">
+      <div class="f">
+        <label for="q" data-t="ui.data.filter.search">Search</label>
+        <input id="q" type="search" autocomplete="off" data-t-attr="placeholder.ui.data.filter.placeholder">
+      </div>
+      <div class="f">
+        <label for="f-country" data-t="ui.data.filter.country">Country</label>
+        <select id="f-country"><option value="" data-t="ui.data.filter.all">All</option></select>
+      </div>
+      <div class="f">
+        <label for="f-group" data-t="ui.data.filter.group">Group</label>
+        <select id="f-group"><option value="" data-t="ui.data.filter.all">All</option></select>
+      </div>
+      <div class="f">
+        <label for="f-value" data-t="ui.data.filter.value">Value</label>
+        <select id="f-value">
+          <option value="" data-t="ui.data.filter.all">All</option>
+          <option value="required" data-t="value.required">Required</option>
+          <option value="notrequired" data-t="value.notrequired">Not required</option>
+          <option value="mixed" data-t="value.mixed">Mixed / unclear</option>
+          <option value="nodata" data-t="value.nodata">No data</option>
+        </select>
+      </div>
+      <div class="f-right">
+        <span class="row-count" id="row-count"></span>
+        <button id="reset" data-t="ui.data.reset">Reset</button>
+        <button id="export-csv" data-t="ui.data.export">Download CSV</button>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table class="data" id="tbl">
+        <thead>
+          <tr>
+            <th data-sort="country" class="sortable" data-t="ui.data.head.country">Country</th>
+            <th data-sort="group" class="sortable" data-t="ui.data.head.group">Group</th>
+            <th data-sort="indicator" class="sortable" data-t="ui.data.head.requirement">Requirement</th>
+            <th data-sort="value" class="sortable" data-t="ui.data.head.value">Value</th>
+            <th data-t="ui.data.head.source">Source</th>
+            <th data-t="ui.data.head.notes">Notes</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+
+    <p class="hint" id="empty" data-t="ui.data.empty" hidden>No rows match those filters.</p>
+
+  </div>
+</main>
+
+<div id="status-screen">
+  <div>
+    <div class="msg" data-t="ui.loading.msg">Loading the atlas…</div>
+    <div class="sub" data-t="ui.loading.sub">Fetching the live regulation sheet</div>
+  </div>
+</div>
+
+<script type="module" src="src/table.js"></script>
+</body>
+</html>

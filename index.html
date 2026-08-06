@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Global Moto-Taxi Regulation Atlas — GNPT</title>
+<meta name="description" content="An interactive map and policy atlas of moto-taxi regulation in 112 countries. Global Network for Popular Transportation.">
+<link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <span class="dot"></span>
+    <div>
+      <h1 data-t="ui.brand.title">Moto-Taxi Regulation Atlas</h1>
+      <div class="org" data-t="ui.brand.org">Global Network for Popular Transportation</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html" data-t="ui.nav.map" aria-current="page">Map</a>
+    <a href="compare.html" data-t="ui.nav.compare">Compare</a>
+    <a href="data.html" data-t="ui.nav.data">Data</a>
+  </nav>
+
+  <div class="legend" id="legend"></div>
+
+  <div class="header-right">
+    <div style="font-size:10px;color:var(--ink-faint);text-align:right;line-height:1.5">
+      <div id="country-count"></div>
+      <div id="profile-count"></div>
+    </div>
+    <div class="provenance" id="provenance"></div>
+    <div data-lang-switcher></div>
+  </div>
+</header>
+
+<main>
+  <svg id="map" role="img" aria-label="World map of moto-taxi regulation status"></svg>
+
+  <div id="tooltip"></div>
+
+  <div class="scope-note" id="scope-note" hidden></div>
+
+  <div class="controls">
+    <label for="indicator-select" data-t="ui.map.control.colourBy">Colour by</label>
+    <select id="indicator-select"></select>
+    <label for="search" data-t="ui.map.control.find">Find</label>
+    <input id="search" type="search" autocomplete="off" data-t-attr="placeholder.ui.map.control.placeholder">
+  </div>
+
+  <div class="zoom">
+    <button id="zoom-in" data-t-attr="title.ui.map.zoom.in">+</button>
+    <button id="zoom-out" data-t-attr="title.ui.map.zoom.out">−</button>
+    <button id="zoom-reset" class="reset" data-t="ui.map.zoom.reset">Reset view</button>
+  </div>
+
+  <aside id="drawer" aria-label="Country detail">
+    <div class="drawer-head">
+      <div class="row">
+        <div>
+          <h2 id="c-name"></h2>
+          <div class="local-name" id="c-local" hidden></div>
+        </div>
+        <button class="close" id="close-drawer" data-t-attr="aria-label.ui.drawer.close">×</button>
+      </div>
+      <div class="badges" id="c-badges"></div>
+    </div>
+    <div class="drawer-body" id="drawer-body"></div>
+  </aside>
+
+  <div id="status-screen">
+    <div>
+      <div class="msg" data-t="ui.loading.msg">Loading the atlas…</div>
+      <div class="sub" data-t="ui.loading.sub">Fetching the live regulation sheet</div>
+    </div>
+  </div>
+</main>
+
+<script type="module" src="src/map.js"></script>
+</body>
+</html>
