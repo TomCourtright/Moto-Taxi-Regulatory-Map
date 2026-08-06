@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Get-ChildItem -Recurse -Force -File \"C:\\\\Users\\\\tomrc\\\\OneDrive\\\\Desktop\\\\Boda Book\\\\Consultancy\\\\GNPT\\\\Boda Boda Regulation - 2025-26\\\\Map Part\\\\Global Moto Taxi Regulation Map - for Claude\" | ForEach-Object { $_.FullName.Substring\\(120\\) + \"  [\" + $_.Length + \"]\" })",
-      "Bash(python -c ' *)"
-    ]
-  }
-}

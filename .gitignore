@@ -1,0 +1,2 @@
+# Per-machine Claude Code settings — should not be shared across collaborators
+.claude/settings.local.json
